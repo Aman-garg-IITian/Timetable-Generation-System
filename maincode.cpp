@@ -101,13 +101,12 @@ bool allocate_practical(course * IC){
 
 bool allocate_lecture(course* IC, int l, bool tut){
     // cout<<"allocating lecture for "<< IC->course_code<<" " << l <<endl;
+    cout<<l<<endl;
     slot* temp_slot = new slot();
     temp_slot->day = 0;
     temp_slot->time_slot = 0;
     bool flag = 0;
     while(l > 0){
-        int after_lun = 0;
-        temp_slot->time_slot = after_lun;
         // cout<<"lecture left "<<l<<endl;
         while(temp_slot->day < working_days || temp_slot->time_slot < no_of_slots){
             bool flag_busy = 0;
@@ -123,7 +122,7 @@ bool allocate_lecture(course* IC, int l, bool tut){
                     else{
                         // cout<<"next day"<<endl;
                         temp_slot->day += 1;
-                        temp_slot->time_slot = after_lun;
+                        temp_slot->time_slot = 0;
                         // cout<<temp_slot->day<<" "<<temp_slot->time_slot<<endl;
                     }
                     break;
@@ -132,13 +131,12 @@ bool allocate_lecture(course* IC, int l, bool tut){
             if(flag_busy == 0){
                 // cout<<"lecture allocated"<<endl;
                 flag =1;
-                cout<<"enter"<<temp_slot->day<<" ";
-                cout<<temp_slot->time_slot<<endl;
+                // cout<<"enter"<<temp_slot->day<<" ";
+                // cout<<temp_slot->time_slot<<endl;
                 if(IC->first_l == NULL){
                     IC->first_l = temp_slot;
                     temp_slot = new slot();
                     temp_slot->day = IC->first_l->day +1;
-                    temp_slot->time_slot = IC->first_l->time_slot +1 ;
                 }
                 else{
                     slot* temp = IC->first_l;
@@ -147,25 +145,13 @@ bool allocate_lecture(course* IC, int l, bool tut){
                     }
                     temp->next = temp_slot;
                     temp_slot = new slot();
-                    cout<<temp->day<<endl;
+                    // cout<<temp->day<<endl;
                     temp_slot->day = temp->next->day +1;
-                    temp_slot->time_slot = temp->next->time_slot +1;
                 }
+                temp_slot->time_slot = 0;
                 l--;
-                if( temp_slot->day >= working_days && after_lun == 0){
-                    temp_slot->day = 0;
-                    temp_slot->time_slot = lunch+1;
-                    after_lun = lunch+1;
-                }
-                cout<<temp_slot->day<<" "<<temp_slot->time_slot<<endl;
 
                 break;
-            }
-            if( temp_slot->day >= working_days && after_lun == 0){
-                temp_slot->day = 0;
-                temp_slot->time_slot = lunch+1;
-                after_lun = lunch+1;
-                cout<<temp_slot->day<<" "<<temp_slot->time_slot<<endl;
             }
         }
         if(flag == 0){
@@ -194,6 +180,7 @@ bool allocate_lecture(course* IC, int l, bool tut){
         }
         temp = temp->next;
     }
+    cout<<endl;
     return true;
 }
 
