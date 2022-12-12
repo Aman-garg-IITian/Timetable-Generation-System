@@ -99,7 +99,8 @@ bool allocate_practical(course * IC){
     return true;  
 }
 
-bool allocate_lecture(course* IC, int l, bool tut){
+
+bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
     // cout<<"allocating lecture for "<< IC->course_code<<" " << l <<endl;
     cout<<l<<endl;
     slot* temp_slot = new slot();
@@ -133,13 +134,13 @@ bool allocate_lecture(course* IC, int l, bool tut){
                 flag =1;
                 // cout<<"enter"<<temp_slot->day<<" ";
                 // cout<<temp_slot->time_slot<<endl;
-                if(IC->first_l == NULL){
-                    IC->first_l = temp_slot;
+                if( head == NULL){
+                    head = temp_slot;
                     temp_slot = new slot();
-                    temp_slot->day = IC->first_l->day +1;
+                    temp_slot->day = head->day +1;
                 }
                 else{
-                    slot* temp = IC->first_l;
+                    slot* temp = head;
                     while(temp->next != NULL){
                         temp = temp->next;
                     }
@@ -156,11 +157,11 @@ bool allocate_lecture(course* IC, int l, bool tut){
         }
         if(flag == 0){
             cout << "ERRORRRRR: THE COURSE" << IC->course_code << "COULDN'T GET ALL LECTURES ALLOTED "<< l <<"lectures left"<<endl;
-            IC->first_l = NULL;
+            head = NULL;
             return false;
         }
     }
-    slot * temp = IC->first_l;
+    slot * temp = head;
     // if(temp){
     //     cout<<"its not null"<<endl;
     // }
@@ -172,6 +173,7 @@ bool allocate_lecture(course* IC, int l, bool tut){
         for(int i=0; i<dept.size(); i++){
             if(tut){
                 dept[i]->table[temp->day][temp->time_slot] = make_pair(2,IC) ;
+                cout<<"tutorial" << dept[i]->table[temp->day][temp->time_slot].first<<endl;
             }
             else{
                 dept[i]->table[temp->day][temp->time_slot] = make_pair(1,IC) ;
@@ -202,19 +204,19 @@ bool allocate_ic(vector<course*> IC){
     //then allocate all lectures of ICs
     for(itr = IC.begin(); itr != IC.end(); itr++){
         if( (*itr)->l != 0){
-            allocate_lecture(*itr, (*itr)->l, false);
+            allocate_lecture(*itr, (*itr)->l, false, (*itr)->first_l);
         }
     }
-    // sort(IC.begin(), IC.end(), [](course*& lhs, course* & rhs){return lhs->t > rhs->t;});
-    // //at end allocate the tutorial hours
-    // for(itr = IC.begin(); itr != IC.end(); itr++){
-    //     if( (*itr)->t != 0){
-    //         allocate_lecture(*itr, (*itr)->t, true);
-    //     }
-    //     else{
-    //         break;
-    //     }
-    // }
+    sort(IC.begin(), IC.end(), [](course*& lhs, course* & rhs){return lhs->t > rhs->t;});
+    //at end allocate the tutorial hours
+    for(itr = IC.begin(); itr != IC.end(); itr++){
+        if( (*itr)->t != 0){
+            allocate_lecture(*itr, (*itr)->t, true, (*itr)->first_t);
+        }
+        else{
+            break;
+        }
+    }
     return true;
 }
 
@@ -224,21 +226,22 @@ void debug_print(){
         cout<<"TABLE FOR "<<dept[i]->name<<endl;
         for(int j=0; j< 5; j++){
             for(int k=0; k< 11; k++){
+                // cout<<dept[i]->table[j][k].first<<" ";
                 if( dept[i]->table[j][k].first == 0 ){
                     cout << "empty           ";
                 }
                 else{
                     cout<< dept[i]->table[j][k].second->course_code;
                     int le = dept[i]->table[j][k].second->course_code.length();
-                    for(int k=0; k< 16-le; k++){
-                        if(dept[i]->table[j][k].first == 2){
-                            cout<<"(TUT)";
-                            k = k-5;
-                        }
-                        if(dept[i]->table[j][k].first == 3){
-                            cout<<"(PRA)";
-                            k = k-5;
-                        }
+                    if(dept[i]->table[j][k].first == 2){
+                        cout<<"(TUT)";
+                        le += 5;
+                    }
+                    if(dept[i]->table[j][k].first == 3){
+                        cout<<"(PRA)";
+                        le += 5;
+                    }
+                    for(int letters=0; letters< 16-le; letters++){
                         cout<<" ";
                     }
                 }
@@ -328,12 +331,20 @@ void classroom_print(){
         for(int j=0; j< 5; j++){
             for(int k=0; k< 11; k++){
                 if( room[i]->class_table.table[j][k].first == 0 ){
-                    cout << "empty      ";
+                    cout << "empty           ";
                 }
                 else{
                     cout<< room[i]->class_table.table[j][k].second->course_code;
                     int le = room[i]->class_table.table[j][k].second->course_code.length();
-                    for(int k=0; k< 11-le; k++){
+                    if(room[i]->class_table.table[j][k].first == 2){
+                        cout<<"(TUT)";
+                        le += 5;
+                    }
+                    if(room[i]->class_table.table[j][k].first == 3){
+                        cout<<"(PRA)";
+                        le += 5;
+                    }
+                    for(int letters=0; letters< 16-le; letters++){
                         cout<<" ";
                     }
                 }
@@ -378,11 +389,17 @@ bool allocate(classroom* room, course* c){
     slot * temp = c->first_l;
     c->allocated_classrooms.push_back(room->id);
     while(temp){
+        cout<< "running"<<endl;
         room->class_table.table[temp->day][temp->time_slot] = make_pair(1, c);
         // cout<<"allocating room " <<room->id <<" to "<<c->course_code<<endl;
         temp = temp->next;
     }
-
+    temp = c->first_t;
+    while(temp){
+        room->class_table.table[temp->day][temp->time_slot] = make_pair(2, c);
+        // cout<<"allocating room " <<room->id <<" to "<<c->course_code<<endl;
+        temp = temp->next;
+    }
     return 1;
 
 }
@@ -404,7 +421,8 @@ int allocate_classroom_same(vector<course*> ICs){
         for(int j=starting_index;j<room.size();j++){
             flag=0;
             slot* temp = ICs[i]->first_l;
-            while(temp != NULL){
+            int twice=0;
+            while(temp != NULL && twice !=1){
                 if(room[j]->class_table.table[temp->day][temp->time_slot].first==0){
                     temp = temp->next;
                     continue;
@@ -412,6 +430,10 @@ int allocate_classroom_same(vector<course*> ICs){
                 else{
                     flag=1;
                     break;
+                }
+                if(temp == NULL){
+                    twice = 1;
+                    temp = ICs[i]->first_t;
                 }
             }
             if(flag==0){
