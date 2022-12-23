@@ -1,6 +1,6 @@
 #include "ds.h"
 
-bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
+bool allocate_lecture(course* IC, int l, int tut, slot *& head){
     // cout<<"allocating lecture for "<< IC->course_code<<" " << l <<endl;
     cout<<l<<endl;
     slot* temp_slot = new slot();
@@ -31,6 +31,9 @@ bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
             }
             if(flag_busy == 0){
                 // cout<<"lecture allocated"<<endl;
+                if(classroom_check(IC, temp_slot, tut) == false){
+                    continue;
+                }
                 flag =1;
                 // cout<<"enter"<<temp_slot->day<<" ";
                 // cout<<temp_slot->time_slot<<endl;

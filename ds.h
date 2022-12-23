@@ -103,8 +103,11 @@ string dept_name[no_of_dept] = {"CHEMICAL", "CIVIL", "CSE", "EE", "MECH", "MAT"}
 bool take_input_csv(string fname);
 bool take_input_classroom(string fname);
 
+#include "classroom_check_file.cpp"
+bool classroom_check(course* IC, slot * slot_to_allot, int type);
+
 #include "allocate_lectures.cpp"
-bool allocate_lecture(course* IC, int l, bool tut, slot *& head);
+bool allocate_lecture(course* IC, int l, int tut, slot *& head);
 
 #include "allocate_prac.cpp"
 bool allocate_practical(course * IC);
@@ -112,9 +115,9 @@ bool allocate_practical(course * IC);
 #include "allocate_ics.cpp"
 bool allocate_ic(vector<course*> IC);
 
-#include "allocate_classroom.cpp"
-bool allocate(classroom* room, course* c);
-int allocate_classroom_same(vector<course*> ICs);
+// #include "allocate_classroom.cpp"
+// bool allocate(classroom* room, course* c);
+// int allocate_classroom_same(vector<course*> ICs);
 
 #include "final_print.cpp"
 void debug_print();

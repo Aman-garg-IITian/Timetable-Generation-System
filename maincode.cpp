@@ -9,7 +9,7 @@ int main(){
         cout<<"CLASSROOMS READ" <<endl;
 
     allocate_ic(ICs);
-    allocate_classroom_same(ICs);
+    //allocate_classroom_same(ICs);
     debug_print();
     classroom_print();    
 }
