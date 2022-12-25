@@ -12,6 +12,7 @@
 
 using namespace std;
 
+//defining no. of working slots and working days
 #define no_of_slots 11
 #define working_days 5
 #define no_of_dept 6 

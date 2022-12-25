@@ -1,1 +1,1 @@
-_
+ allocate_ic(ICs);

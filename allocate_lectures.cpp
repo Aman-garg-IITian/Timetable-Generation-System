@@ -32,11 +32,28 @@ bool allocate_lecture(course* IC, int l, int tut, slot *& head){
             if(flag_busy == 0){
                 // cout<<"lecture allocated"<<endl;
                 if(classroom_check(IC, temp_slot, tut) == false){
+                    if(temp_slot->time_slot < no_of_slots - 1){
+                        temp_slot->time_slot += 1;
+                    }
+                    else{
+                        temp_slot->day += 1;
+                        temp_slot->time_slot = 0;
+                    }
                     continue;
                 }
                 flag =1;
                 // cout<<"enter"<<temp_slot->day<<" ";
                 // cout<<temp_slot->time_slot<<endl;
+                for(int i=0; i<dept.size(); i++){
+                    if(tut==2){
+                        dept[i]->table[temp_slot->day][temp_slot->time_slot] = make_pair(2,IC) ;
+                        // cout<<"tutorial" << dept[i]->table[temp_slot->day][temp_slot->time_slot].first<<endl;
+                    }
+                    else if(tut==1){
+                        dept[i]->table[temp_slot->day][temp_slot->time_slot] = make_pair(1,IC) ;
+                        // dept[i]->table[temp->day][temp->time_slot].second = IC;
+                    }
+                }
                 if( head == NULL){
                     head = temp_slot;
                     temp_slot = new slot();
@@ -54,37 +71,26 @@ bool allocate_lecture(course* IC, int l, int tut, slot *& head){
                 }
                 temp_slot->time_slot = 0;
                 l--;
-
                 break;
             }
         }
         if(flag == 0){
             cout << "ERRORRRRR: THE COURSE" << IC->course_code << "COULDN'T GET ALL LECTURES ALLOTED "<< l <<"lectures left"<<endl;
-            head = NULL;
+            // head = NULL;
             return false;
         }
     }
-    slot * temp = head;
+    // slot * temp = head;
     // if(temp){
     //     cout<<"its not null"<<endl;
     // }
     // else{
     //     cout<<"its nulll"<<endl;
     // }
-    while(temp){
-        cout<<"allocating "<<IC->course_code<<" "<<temp->day<<" "<<temp->time_slot <<endl;
-        for(int i=0; i<dept.size(); i++){
-            if(tut){
-                dept[i]->table[temp->day][temp->time_slot] = make_pair(2,IC) ;
-                cout<<"tutorial" << dept[i]->table[temp->day][temp->time_slot].first<<endl;
-            }
-            else{
-                dept[i]->table[temp->day][temp->time_slot] = make_pair(1,IC) ;
-                // dept[i]->table[temp->day][temp->time_slot].second = IC;
-            }
-        }
-        temp = temp->next;
-    }
-    cout<<endl;
+    // while(temp){
+    //     cout<<"allocating "<<IC->course_code<<" "<<temp->day<<" "<<temp->time_slot <<endl;
+    //     temp = temp->next;
+    // }
+    // cout<<endl;
     return true;
 }
