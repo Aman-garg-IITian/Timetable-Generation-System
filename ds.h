@@ -52,6 +52,7 @@ class course{
     vector<string> parallel;  /*to store courses like in HSS slot 3 courses run all at same time diff classroom;
                      no use in timtable algo used in classroom allocation   */
     vector<string> ins_name;
+    instructor* Prof;
     vector<string> coordinator;
     vector<string> allocated_classrooms;
 };
@@ -120,5 +121,8 @@ int allocate_classroom_same(vector<course*> ICs);
 #include "final_print.cpp"
 void debug_print();
 void classroom_print();
+
+#include "check_instructor.cpp"
+bool check_instructor_slot(instructor *Prof, slot* s );
 
 #endif
