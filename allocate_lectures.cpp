@@ -1,16 +1,21 @@
 #include "ds.h"
 
 bool allocate_lecture(course* IC, int l, int tut, slot *& head){
-    // cout<<"allocating lecture for "<< IC->course_code<<" " << l <<endl;
+    
+
+
     cout<<l<<endl;
     slot* temp_slot = new slot();
     temp_slot->day = 0;
     temp_slot->time_slot = 0;
     bool flag = 0;
+
+
     while(l > 0){
-        // cout<<"lecture left "<<l<<endl;
+        
         while(temp_slot->day < working_days || temp_slot->time_slot < no_of_slots){
             bool flag_busy = 0;
+            
             for(int i=0 ; i< dept.size(); i++){
                 if( (dept[i]->table[temp_slot->day][temp_slot->time_slot]).first != 0){
                     
@@ -80,17 +85,6 @@ bool allocate_lecture(course* IC, int l, int tut, slot *& head){
             return false;
         }
     }
-    // slot * temp = head;
-    // if(temp){
-    //     cout<<"its not null"<<endl;
-    // }
-    // else{
-    //     cout<<"its nulll"<<endl;
-    // }
-    // while(temp){
-    //     cout<<"allocating "<<IC->course_code<<" "<<temp->day<<" "<<temp->time_slot <<endl;
-    //     temp = temp->next;
-    // }
-    // cout<<endl;
+   
     return true;
 }

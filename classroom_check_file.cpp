@@ -1,6 +1,9 @@
 #include "ds.h"
 bool classroom_check(course* IC, slot * slot_to_allot, int type){
+
     sort(room.begin(), room.end(), [](classroom*& lhs, classroom* rhs){return lhs->capacity < rhs->capacity;});
+
+    
     int starting_index;
     int flag(0);
     for(int j=0; j < room.size(); j++){
