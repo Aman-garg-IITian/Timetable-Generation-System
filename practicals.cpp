@@ -1,23 +1,24 @@
 #include <iostream>
 #include <string>
 #include <vector>
+using namespace std;
 
 const int NUM_DAYS = 5;   // number of weekdays
 const int NUM_SLOTS = 8;  // number of time slots per day
 
 // structure to represent a practical session
 struct Practical {
-  std::string subject;   // name of the subject
+  string subject;   // name of the subject
   int duration;          // duration of the practical in hours
   int group;             // group number of the students
 };
 
 int main() {
   // create a 2D array to represent the timetable
-  std::vector<std::vector<Practical>> timetable(NUM_DAYS, std::vector<Practical>(NUM_SLOTS));
+  vector < vector <Practical> > timetable(NUM_DAYS, vector<Practical>(NUM_SLOTS));
 
   // list of practical sessions to be scheduled
-  std::vector<Practical> practicals = {
+  vector<Practical> practicals = {
     {"Physics", 3, 1},
     {"Biology", 2, 2},
     {"Chemistry", 3, 3},
@@ -31,7 +32,7 @@ int main() {
     // find the first available slot for the practical
     bool scheduled = false;
     for (int d = 0; d < NUM_DAYS; d++) {
-      for (int s = 0; s < NUM_SLOTS; s++) {
+      for (int s = 6; s < NUM_SLOTS; s++) {
         if (timetable[d][s].subject.empty()) {
           // check if there are enough consecutive slots available
           bool slot_available = true;
@@ -59,11 +60,11 @@ int main() {
 
   // print the timetable
   for (int d = 0; d < NUM_DAYS; d++) {
-    std::cout << "Day " << d + 1 << ": ";
+    cout << "Day " << d + 1 << ": ";
     for (int s = 0; s < NUM_SLOTS; s++) {
-      std::cout << timetable[d][s].subject << " ";
+      cout << timetable[d][s].subject << " ";
     }
-    std::cout << std::endl;
+    cout << endl;
   }
 
   return 0;
