@@ -28,6 +28,11 @@ void add_instructor_slot(instructor *Prof, slot* s){
     }
     
     slot* temp=Prof->first_slot;
+    if(temp==NULL){
+        Prof->first_slot=s;
+        s->next=NULL;
+        return;
+    }
     while (temp->next!=NULL)
     {
         temp=temp->next;
