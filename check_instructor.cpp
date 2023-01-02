@@ -15,7 +15,25 @@ bool check_instructor_slot(instructor *Prof, slot* s ){
         {
             return false;
         }
+        temp=temp->next;
         
     }
     return true;
+}
+
+void add_instructor_slot(instructor *Prof, slot* s){
+    if (s==NULL)
+    {
+        return;
+    }
+    
+    slot* temp=Prof->first_slot;
+    while (temp->next!=NULL)
+    {
+        temp=temp->next;
+    }
+    temp->next=s;
+    temp=temp->next;
+    temp->next=NULL;
+    return;
 }
