@@ -35,6 +35,7 @@ class practical{
 
 class instructor{
     public:
+    string ID;
     string name;
     slot* first_slot;
 };
