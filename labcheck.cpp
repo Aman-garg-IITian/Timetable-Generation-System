@@ -21,10 +21,11 @@ bool lab_check(course* P,slot * slot_to_allot, int tut, string depts){
 
   for(int j=starting_index;j<labs_room.size();j++){
     // check if the lab is available for the given time slot
-    cout<<"deptarment"<<labs_room[j]->department<<endl;
+    
     if(labs_room[j]->department == depts && labs_room[j]->class_table.table[slot_to_allot->day][slot_to_allot->time_slot].first==0){
-      
+       cout<<"deptarment--"<<labs_room[j]->department<<"and"<<depts<<endl;
       // add lab id to allocated_labs list
+    
       if( find(P->allocated_labs.begin(), P->allocated_labs.end(), labs_room[j]->id) == P->allocated_labs.end()){
         P->allocated_labs.push_back(labs_room[j]->id);
       }

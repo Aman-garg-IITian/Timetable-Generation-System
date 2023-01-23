@@ -41,7 +41,7 @@ bool take_input_csv(string fname){
             if( stoi(content[i][8]) > 1 ){
                 temp_input->course_code = content[i][1];
                 temp_input->p= stoi(content[i][8]);
-                temp_input->lab_dept= content[i][1].substr(0, 3);
+                temp_input->lab_dept= content[i][1].substr(0, 2);
 
                 cout<<content[i][1].substr(0, 3)<<" "<<stoi(content[i][8])<<" "<<content[i][1]<<endl;
                 Ps.push_back(temp_input);
@@ -132,7 +132,7 @@ bool take_input_labsroom(string fname){
             row.push_back(word);
             content.push_back(row);
         }
-        cout<<"file opened"<<endl;
+        cout<<"file opened labsroom"<<endl;
     }
     else{
         cout<<"File not found!";
@@ -142,7 +142,7 @@ bool take_input_labsroom(string fname){
         labsroom_c* object = new labsroom_c();
         object->id = content[i][0];
         object->capacity = stoi(content[i][1]); 
-        object->department=content[i][2].substr(0,3);
+        object->department= content[i][0].substr(0,2);
         labs_room.push_back(object);
     }
     return 0;
