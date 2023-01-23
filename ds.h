@@ -47,7 +47,7 @@ class course{
     int t;
     slot* first_t;
     int p;
-    practical* first_p;
+    slot* first_p;
     int registered_stu = 80;
     string lab_dept;
     vector<string> parallel;  /*to store courses like in HSS slot 3 courses run all at same time diff classroom;
@@ -116,6 +116,8 @@ string dept_name[no_of_dept] = {"CHEMICAL", "CIVIL", "CSE", "EE", "MECH", "MAT"}
 #include "input.cpp"
 bool take_input_csv(string fname);
 bool take_input_classroom(string fname);
+bool take_input_labsroom(string fname);
+
 
 
 

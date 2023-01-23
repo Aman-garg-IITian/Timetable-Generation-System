@@ -41,6 +41,9 @@ bool take_input_csv(string fname){
             if( stoi(content[i][8]) > 1 ){
                 temp_input->course_code = content[i][1];
                 temp_input->p= stoi(content[i][8]);
+                temp_input->lab_dept= content[i][1].substr(0, 3);
+
+                cout<<content[i][1].substr(0, 3)<<" "<<stoi(content[i][8])<<" "<<content[i][1]<<endl;
                 Ps.push_back(temp_input);
             }
         }
@@ -110,6 +113,37 @@ bool take_input_classroom(string fname){
         object->id = content[i][0];
         object->capacity = stoi(content[i][1]); 
         room.push_back(object);
+    }
+    return 0;
+
+}
+bool take_input_labsroom(string fname){
+    vector< vector<string> > content;
+    vector<string> row;
+    string line, word;
+
+    fstream file (fname,ios::in);
+    if(file.is_open())
+    {
+        while(getline(file,line)){
+            row.clear();
+            stringstream str(line);
+            while(getline(str,word,','))
+            row.push_back(word);
+            content.push_back(row);
+        }
+        cout<<"file opened"<<endl;
+    }
+    else{
+        cout<<"File not found!";
+        return 0;
+    }
+    for(int i=1;i<content.size();i++){
+        labsroom_c* object = new labsroom_c();
+        object->id = content[i][0];
+        object->capacity = stoi(content[i][1]); 
+        object->department=content[i][2].substr(0,3);
+        labs_room.push_back(object);
     }
     return 0;
 
