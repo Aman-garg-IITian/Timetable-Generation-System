@@ -33,8 +33,29 @@ bool take_input_csv(string fname){
             }
         }
     }
+
+
+    for(int i=1;i<content.size();i++){
+        if(content[i][1]!= ""){
+            course * temp_input = new course();
+            if( stoi(content[i][8]) >= 1 && stoi(content[i][8])<=5 ){
+                temp_input->course_code = content[i][1];
+                temp_input->p= stoi(content[i][8]);
+                temp_input->lab_dept= content[i][1].substr(0, 2);
+
+                cout<<content[i][1].substr(0, 3)<<" "<<stoi(content[i][8])<<" "<<content[i][1]<<endl;
+                Ps.push_back(temp_input);
+            }
+        }
+    }
+
+
     for(int i=13; i<ICs.size(); i++){
         ICs[i]->registered_stu = 40;
+    }
+
+    for(int i=13; i<Ps.size(); i++){
+        Ps[i]->registered_stu = 40;
     }
     // cout<<ICs.size()<<endl;
     // for(int i=0; i< ICs.size(); i++){
@@ -93,5 +114,37 @@ bool take_input_classroom(string fname){
         object->capacity = stoi(content[i][1]); 
         room.push_back(object);
     }
+    return 0;
+
+}
+bool take_input_labsroom(string fname){
+    vector< vector<string> > content;
+    vector<string> row;
+    string line, word;
+
+    fstream file (fname,ios::in);
+    if(file.is_open())
+    {
+        while(getline(file,line)){
+            row.clear();
+            stringstream str(line);
+            while(getline(str,word,','))
+            row.push_back(word);
+            content.push_back(row);
+        }
+        cout<<"file opened labsroom"<<endl;
+    }
+    else{
+        cout<<"File not found!";
+        return 0;
+    }
+    for(int i=1;i<content.size();i++){
+        labsroom_c* object = new labsroom_c();
+        object->id = content[i][0];
+        object->capacity = stoi(content[i][1]); 
+        object->department= content[i][0].substr(0,2);
+        labs_room.push_back(object);
+    }
+    return 0;
 
 }
