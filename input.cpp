@@ -38,7 +38,7 @@ bool take_input_csv(string fname){
     for(int i=1;i<content.size();i++){
         if(content[i][1]!= ""){
             course * temp_input = new course();
-            if( stoi(content[i][8]) > 1 ){
+            if( stoi(content[i][8]) >= 1 && stoi(content[i][8])<=5 ){
                 temp_input->course_code = content[i][1];
                 temp_input->p= stoi(content[i][8]);
                 temp_input->lab_dept= content[i][1].substr(0, 2);

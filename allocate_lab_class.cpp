@@ -2,7 +2,7 @@
 
 bool allocate_practicals(course* P, int p, int tut, slot *& head,string lab_dept){
 
-  cout<<"no of p-->"<<p<<endl;
+  
 
   slot* temp_slot = new slot();
   temp_slot->day = 0;
@@ -13,13 +13,13 @@ bool allocate_practicals(course* P, int p, int tut, slot *& head,string lab_dept
 
   while(p > 0){
     cout<<" inside the while loop"<<endl;
-
     while(temp_slot->day < working_days || temp_slot->time_slot < no_of_slots){
       bool flag_busy = 0;
       
-      cout<<dept.size()<<endl;
       for(int i=0 ; i< dept.size(); i++){
-        cout<<(dept[i]->table[temp_slot->day][temp_slot->time_slot]).first<<endl;
+
+        cout<<"Checking the value in table[temp_slot->day][temp_slot->time_slot] of dept :"<<(dept[i]->table[temp_slot->day][temp_slot->time_slot]).first<<endl;
+
         if((dept[i]->table[temp_slot->day][temp_slot->time_slot]).first!=0){
           
           flag_busy = 1;
@@ -37,7 +37,7 @@ bool allocate_practicals(course* P, int p, int tut, slot *& head,string lab_dept
         }
       }
       if(flag_busy == 0){
-        // cout<<"lab_che3ck-->"<<lab_check(P,temp_slot,3,lab_dept)<<endl;
+        cout<<"lab_che3ck-->"<<lab_check(P,temp_slot,3,lab_dept)<<endl;
         if(lab_check(P, temp_slot, 3,lab_dept) == false){
           if(temp_slot->time_slot < no_of_slots - 1){
             temp_slot->time_slot += 1;

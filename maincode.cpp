@@ -13,7 +13,7 @@ int main(){
 
 
     allocate_pc(Ps);
-
+    // allocate_ic(ICs);
 
     debug_print();
     classroom_print();    
