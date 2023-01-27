@@ -1,17 +1,17 @@
 #include "ds.h"
 
 bool take_input_csv(string fname){
+    
     vector< vector<string> > content;
     vector<string> row;
     string line, word;
     unordered_map <string,int> dept_substr;
+    
     for(int i=0;i<no_of_dept;i++){
         dept_substr[dept_code[i]]=i;
-        D_core[i]->dept_no=i;
+        DC * temp_obj = new DC(i);
+        D_core.push_back((temp_obj));
     }
-    // for(auto i : dept_name){
-    //     DC * i = new DC();
-    // }
 
     fstream file (fname,ios::in);
     if(file.is_open())
@@ -51,10 +51,8 @@ bool take_input_csv(string fname){
     for(int i=13; i<ICs.size(); i++){
         ICs[i]->registered_stu = 40;
     }
-    // cout<<ICs.size()<<endl;
-    // for(int i=0; i< ICs.size(); i++){
-    //     cout<<ICs[i]->course_code<<" "<<ICs[i]->l<<" "<<ICs[i]->t<<" "<<ICs[i]->p<<endl;
-    // }
+    
+
     for(int i=0; i<dept.size(); i++){
         time_table * object = new time_table();
         object->name = dept_name[i];
@@ -71,12 +69,13 @@ bool take_input_csv(string fname){
             dept[i]->table[j][lunch] = make_pair(1,lunch_name);
         }
     }
-    int break_slot, dept_no, day_no;
-    cout<<"ENTER DEPT NO AND BREAK SLOT and day no.: ";
-    cin>>dept_no>>break_slot>> day_no ;
-    course * break_name = new course();
-    break_name->course_code = "test break";
-    dept[dept_no]->table[day_no][break_slot] = make_pair(1,break_name);
+    
+    // int break_slot, dept_no, day_no;
+    // cout<<"ENTER DEPT NO AND BREAK SLOT and day no.: ";
+    // cin>>dept_no>>break_slot>> day_no ;
+    // course * break_name = new course();
+    // break_name->course_code = "test break";
+    // dept[dept_no]->table[day_no][break_slot] = make_pair(1,break_name);
 
     return 1;
 }

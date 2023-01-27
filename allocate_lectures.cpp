@@ -12,7 +12,8 @@ bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
         while(temp_slot->day < working_days || temp_slot->time_slot < no_of_slots){
             bool flag_busy = 0;
             for(int i=0 ; i< dept.size(); i++){
-                if( (dept[i]->table[temp_slot->day][temp_slot->time_slot]).first != 0 || check_instructor_slot(IC->Prof,temp_slot)){
+                instructor * prof = map_instructor[IC->course_code];
+                if( (dept[i]->table[temp_slot->day][temp_slot->time_slot]).first != 0 || check_instructor_slot(prof ,temp_slot)){
                     
                     flag_busy = 1;
                     if(temp_slot->time_slot < no_of_slots - 1){

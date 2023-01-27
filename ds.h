@@ -89,15 +89,16 @@ class DC{
     public:
     int dept_no;
     vector<course*> DCs;
-    DC(){       // initialising dept_no to be 0 and null vector
-        dept_no=0;
+    DC(int n){       // initialising dept_no to be 0 and null vector
+        this->dept_no=n;
     }
 };
 
 unordered_map <string, instructor *> map_instructor;  //this map will map a particular course to instructors using his/her name
 
 vector<course *> ICs, OEs;
-vector<DC *> D_core(no_of_dept), D_Elec;
+vector<DC *> D_core;
+vector<DC *> D_Elec;
 vector<classroom*> room;
 vector<time_table*> dept(no_of_dept);
 int lunch;
@@ -109,6 +110,9 @@ string dept_code[no_of_dept] = {"CH", "CE", "CS", "EE", "ME", "MT"};
 #include "input.cpp"
 bool take_input_csv(string fname);
 bool take_input_classroom(string fname);
+
+#include "check_instructor.cpp"
+bool check_instructor_slot(instructor *Prof, slot* s );
 
 #include "allocate_lectures.cpp"
 bool allocate_lecture(course* IC, int l, bool tut, slot *& head);
@@ -123,11 +127,13 @@ bool allocate_ic(vector<course*> IC);
 bool allocate(classroom* room, course* c);
 int allocate_classroom_same(vector<course*> ICs);
 
+#include "allocate_dcs.cpp"
+bool allocate_dc_lecture(course* dc, int l, bool tut, slot *& head, int dept_no);
+bool allocate_dc(vector<DC*> dc);
+
 #include "final_print.cpp"
 void debug_print();
 void classroom_print();
 
-#include "check_instructor.cpp"
-bool check_instructor_slot(instructor *Prof, slot* s );
 
 #endif
