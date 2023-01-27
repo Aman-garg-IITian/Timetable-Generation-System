@@ -37,6 +37,10 @@ class instructor{
     public:
     string name;
     slot* first_slot;
+    instructor(string na){
+        this->name = na;
+        this->first_slot = NULL;
+    }
 };
 //structure for course
 class course{
