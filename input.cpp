@@ -4,6 +4,14 @@ bool take_input_csv(string fname){
     vector< vector<string> > content;
     vector<string> row;
     string line, word;
+    unordered_map <string,int> dept_substr;
+    for(int i=0;i<no_of_dept;i++){
+        dept_substr[dept_code[i]]=i;
+        D_core[i]->dept_no=i;
+    }
+    // for(auto i : dept_name){
+    //     DC * i = new DC();
+    // }
 
     fstream file (fname,ios::in);
     if(file.is_open())
@@ -30,6 +38,13 @@ bool take_input_csv(string fname){
                 temp_input->p= stoi(content[i][8]);
                 temp_input->t= stoi(content[i][7]);
                 ICs.push_back(temp_input);
+            }
+            else if(content[i][3] =="Departmental Core" ){
+                temp_input->course_code = content[i][1];
+                temp_input->l= stoi(content[i][6]);
+                temp_input->p= stoi(content[i][8]);
+                temp_input->t= stoi(content[i][7]);
+                D_core[dept_substr[(temp_input->course_code).substr(0,2)]]->DCs.push_back(temp_input);
             }
         }
     }
