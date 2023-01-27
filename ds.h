@@ -38,6 +38,9 @@ class instructor{
     string ID;
     string name;
     slot* first_slot;
+    instructor(){
+        this->first_slot = NULL;
+    }
 };
 //structure for course
 class course{
@@ -90,15 +93,16 @@ class DC{
     public:
     int dept_no;
     vector<course*> DCs;
-    DC(){       // initialising dept_no to be 0 and null vector
-        dept_no=0;
+    DC(int n){       // initialising dept_no to be 0 and null vector
+        this->dept_no=n;
     }
 };
 
 unordered_map <string, instructor *> map_instructor;  //this map will map a particular course to instructors using his/her name
 
 vector<course *> ICs, OEs;
-vector<DC *> D_core(no_of_dept), D_Elec;
+vector<DC *> D_core;
+vector<DC *> D_Elec;
 vector<classroom*> room;
 vector<time_table*> dept(no_of_dept);
 int lunch;
@@ -128,10 +132,13 @@ bool allocate_ic(vector<course*> IC);
 bool allocate(classroom* room, course* c);
 int allocate_classroom_same(vector<course*> ICs);
 
+#include "allocate_dcs.cpp"
+bool allocate_dc_lecture(course* dc, int l, bool tut, slot *& head, int dept_no);
+bool allocate_dc(vector<DC*> dc);
+
 #include "final_print.cpp"
 void debug_print();
 void classroom_print();
-
 
 
 #endif

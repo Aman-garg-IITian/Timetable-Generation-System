@@ -10,6 +10,7 @@ int main(){
 
     allocate_ic(ICs);
     allocate_classroom_same(ICs);
+    allocate_dc(D_core);
     debug_print();
     classroom_print();    
 }
