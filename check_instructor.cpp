@@ -1,8 +1,7 @@
-#include <bits/stdc++.h>
-#include <ds.h>
+#include "ds.h"
 using namespace std;
 
-bool check_instructor_slot(instructor *Prof, slot* s ){
+bool checkmy_instructor_slot(instructor *Prof, slot* s ){
     if (s==NULL)
     {
         return true;

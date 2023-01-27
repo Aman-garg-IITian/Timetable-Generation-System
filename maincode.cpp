@@ -2,7 +2,7 @@
 
 int main(){
     cout<<"code start"<<endl;
-    if(take_input_csv("data.csv"))
+    if(take_input_csv("clean_data.csv"))
         cout<<"INPUT TAKEN"<<endl;
 
     if(take_input_classroom("Classroom.csv"))

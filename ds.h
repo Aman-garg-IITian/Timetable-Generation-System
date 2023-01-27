@@ -106,6 +106,10 @@ string dept_name[no_of_dept] = {"CHEMICAL", "CIVIL", "CSE", "EE", "MECH", "MAT"}
 bool take_input_csv(string fname);
 bool take_input_classroom(string fname);
 
+#include "check_instructor.cpp"
+bool checkmy_instructor_slot(instructor *Prof, slot* s );
+void add_instructor_slot(instructor *Prof, slot* s);
+
 #include "allocate_lectures.cpp"
 bool allocate_lecture(course* IC, int l, bool tut, slot *& head);
 
@@ -123,7 +127,6 @@ int allocate_classroom_same(vector<course*> ICs);
 void debug_print();
 void classroom_print();
 
-#include "check_instructor.cpp"
-bool check_instructor_slot(instructor *Prof, slot* s );
+
 
 #endif
