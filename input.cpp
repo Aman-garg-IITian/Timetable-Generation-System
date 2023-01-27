@@ -34,6 +34,7 @@ bool take_input_csv(string fname){
             course * temp_input = new course();
             if( content[i][3] =="Institute Core" ){
                 temp_input->course_code = content[i][1];
+                map_instructor[content[i][i]]=NULL;
                 temp_input->l= stoi(content[i][6]);
                 temp_input->p= stoi(content[i][8]);
                 temp_input->t= stoi(content[i][7]);
@@ -71,6 +72,31 @@ bool take_input_csv(string fname){
             dept[i]->table[j][lunch] = make_pair(1,lunch_name);
         }
     }
+    
+    vector<instructor*> ins_added;
+    for (int i = 1; i < content.size(); i++)
+    {
+        bool flag=1;
+        for (int j = 0; j < ins_added.size(); j++)
+        {
+            if(ins_added[j]->ID==content[i][9]){
+                map_instructor[content[i][1]]=ins_added[j];
+                flag=0;
+                break;
+            }
+        }
+        if (flag)
+        {
+            instructor *temp_ins=new instructor();
+            temp_ins->ID=content[i][9];
+            temp_ins->name=content[i][10];
+            map_instructor[content[i][1]]=temp_ins;
+        }
+        
+        
+    }
+    
+
     int break_slot, dept_no, day_no;
     cout<<"ENTER DEPT NO AND BREAK SLOT and day no.: ";
     cin>>dept_no>>break_slot>> day_no ;
