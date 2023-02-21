@@ -14,7 +14,7 @@ bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
             for(int i=0 ; i< dept.size(); i++){
                 instructor * x = map_instructor[IC->course_code];
                 bool a = checkmy_instructor_slot(x ,temp_slot);
-                if( (dept[i]->table[temp_slot->day][temp_slot->time_slot]).first != 0 && a ){
+                if( (dept[i]->table[temp_slot->day][temp_slot->time_slot]).first != 0 || !a ){
                     
                     flag_busy = 1;
                     if(temp_slot->time_slot < no_of_slots - 1){
@@ -75,11 +75,15 @@ bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
         for(int i=0; i<dept.size(); i++){
             if(tut){
                 dept[i]->table[temp->day][temp->time_slot] = make_pair(2,IC) ;
+                instructor * prof = map_instructor[IC->course_code];
+                add_instructor_slot(prof, temp);
                 cout<<"tutorial" << dept[i]->table[temp->day][temp->time_slot].first<<endl;
             }
             else{
                 dept[i]->table[temp->day][temp->time_slot] = make_pair(1,IC) ;
                 // dept[i]->table[temp->day][temp->time_slot].second = IC;
+                instructor * prof = map_instructor[IC->course_code];
+                add_instructor_slot(prof, temp);
             }
         }
         temp = temp->next;

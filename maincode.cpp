@@ -11,6 +11,10 @@ int main(){
     allocate_ic(ICs);
     allocate_classroom_same(ICs);
     allocate_dc(D_core);
+    vector<DC*> :: iterator itr;
+    for(itr = D_core.begin(); itr != D_core.end(); itr++){
+        allocate_classroom_same((*itr)->DCs);
+    }
     debug_print();
     classroom_print();    
 }
