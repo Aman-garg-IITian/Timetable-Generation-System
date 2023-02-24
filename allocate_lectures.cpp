@@ -2,12 +2,13 @@
 
 bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
     // cout<<"allocating lecture for "<< IC->course_code<<" " << l <<endl;
-    cout<<l<<endl;
+    cout<<"l   = "<<l<<endl;
     slot* temp_slot = new slot();
     temp_slot->day = 0;
     temp_slot->time_slot = 0;
-    bool flag = 0;
+    // bool flag = 0;
     while(l > 0){
+        bool flag = 0;
         // cout<<"lecture left "<<l<<endl;
         while(temp_slot->day < working_days || temp_slot->time_slot < no_of_slots){
             bool flag_busy = 0;

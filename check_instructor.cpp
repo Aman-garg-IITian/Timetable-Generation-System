@@ -25,18 +25,20 @@ void add_instructor_slot(instructor *Prof, slot* s){
     {
         return;
     }
+    slot * copied_s = new slot();
+    *copied_s = *s;
     
     slot* temp=Prof->first_slot;
     if(temp==NULL){
-        Prof->first_slot=s;
-        s->next=NULL;
+        Prof->first_slot= copied_s;
+        Prof->first_slot->next=NULL;
         return;
     }
     while (temp->next!=NULL)
     {
         temp=temp->next;
     }
-    temp->next=s;
+    temp->next= copied_s;
     temp=temp->next;
     temp->next=NULL;
     return;
