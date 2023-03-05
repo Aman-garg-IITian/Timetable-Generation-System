@@ -102,6 +102,21 @@ bool take_input_csv(string fname){
     break_name->course_code = "test break";
     dept[dept_no]->table[day_no][break_slot] = make_pair(1,break_name);
 
+    //taking input for OE slots.
+    cout<<"ENTER NO OF SLOTS FOR OPEN ELECTIVES:   ";
+    cin>>num_oe;
+    for(int i(0); i<num_oe;i++){
+        cout<<"Enter L T P for  "<<i+1<<" OE   :";
+        cin>>oe_l>>oe_t>>oe_p;
+        course* oe = new course();
+        oe->l = oe_l;
+        oe->t = oe_t;
+        oe->p = oe_p;
+        oe->course_code = "OE"+to_string(i+1);
+        OEs.push_back(oe);
+
+    }
+
     return 1;
 }
 
