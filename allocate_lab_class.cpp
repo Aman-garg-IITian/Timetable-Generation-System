@@ -1,9 +1,12 @@
 #include "ds.h"
 
-bool allocate_practicals(course* P, int p, int tut, slot *& head,string lab_dept){
+bool allocate_practicals(course* P, int p, slot* &head,string lab_dept, int tut=3){
 
-  cout<<"no of p-->"<<p<<endl;
-
+  // cout<<"no of p-->"<<p<<endl;
+  if(p > 4){
+    cout<<"Encounter lab of >4 hourss ------- CANNOT ALLOCATE";
+    return false;
+  }
   slot* temp_slot = new slot();
   temp_slot->day = 0;
   temp_slot->time_slot = 0;
