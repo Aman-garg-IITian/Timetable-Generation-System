@@ -11,8 +11,10 @@ int main(){
     if(take_input_labsroom("Labsroom.csv"))
         cout<<"Labs input taken"<<endl;
 
-
+   
+    // allocate_ic(ICs);
     allocate_pc(Ps);
+    
 
 
     debug_print();

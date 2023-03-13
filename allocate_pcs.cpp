@@ -2,7 +2,7 @@
 
 bool allocate_pc(vector<course*> P){
     vector<course *>::iterator itr;
-  cout<<"in allocatepc function"<<endl;
+  cout<<"in allocate pc function"<<endl;
   int count = 0;
     for(itr = P.begin(); itr != P.end(); itr++){
          
