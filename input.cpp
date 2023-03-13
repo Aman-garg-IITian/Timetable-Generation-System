@@ -149,3 +149,34 @@ bool take_input_classroom(string fname){
     }
 
 }
+bool take_input_labsroom(string fname){
+    vector< vector<string> > content;
+    vector<string> row;
+    string line, word;
+
+    fstream file (fname,ios::in);
+    if(file.is_open())
+    {
+        while(getline(file,line)){
+            row.clear();
+            stringstream str(line);
+            while(getline(str,word,','))
+            row.push_back(word);
+            content.push_back(row);
+        }
+        cout<<"file opened labsroom"<<endl;
+    }
+    else{
+        cout<<"File not found!";
+        return 0;
+    }
+    for(int i=1;i<content.size();i++){
+        labsroom_c* object = new labsroom_c();
+        object->id = content[i][0];
+        object->capacity = stoi(content[i][1]); 
+        object->department= content[i][0].substr(0,2);
+        labs_room.push_back(object);
+    }
+    return 0;
+
+}

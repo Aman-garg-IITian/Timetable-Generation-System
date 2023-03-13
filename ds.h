@@ -59,6 +59,8 @@ class course{
     instructor* Prof;
     vector<string> coordinator;
     vector<string> allocated_classrooms;
+
+    string lab_dept; //it will store the requires lab for the course
 };
 
 
@@ -88,6 +90,14 @@ class classroom{
     time_table class_table;   //stores 2D table of class slots 
 };
 
+class labsroom_c{
+    public:
+    string id;
+    int capacity;
+    string department;
+    time_table class_table;   //stores 2D table of class slots 
+};
+
 
 class DC{
     public:
@@ -99,6 +109,8 @@ class DC{
 };
 
 unordered_map <string, instructor *> map_instructor;  //this map will map a particular course to instructors using his/her name
+
+vector<labsroom_c*> labs_room;
 
 vector<course *> ICs, OEs;
 vector<DC *> D_core;
@@ -115,6 +127,7 @@ string dept_code[no_of_dept] = {"CH", "CE", "CS", "EE", "ME", "MT"};
 #include "input.cpp"
 bool take_input_csv(string fname);
 bool take_input_classroom(string fname);
+bool take_input_labsroom(string fname);
 
 #include "check_instructor.cpp"
 bool checkmy_instructor_slot(instructor *Prof, slot* s );
@@ -123,15 +136,18 @@ void add_instructor_slot(instructor *Prof, slot* s);
 #include "allocate_lectures.cpp"
 bool allocate_lecture(course* IC, int l, bool tut, slot *& head);
 
-#include "allocate_prac.cpp"
-bool allocate_practical(course * IC);
+#include "practical_hour.cpp"
+bool  allocate_prac_hours(course* c, int p, practical* first_prac, string lab_dept, int tut);
+
+#include "allocate_practicals_ic.cpp"
+bool allocate_prac_IC(vector<course*> ICs);
 
 #include "allocate_ics.cpp"
 bool allocate_ic(vector<course*> IC);
 
 #include "allocate_classroom.cpp"
 bool allocate(classroom* room, course* c);
-int allocate_classroom_same(vector<course*> ICs);
+int allocate_classroom_same(vector<course*> IC);
 
 #include "allocate_dcs.cpp"
 bool allocate_dc_lecture(course* dc, int l, bool tut, slot *& head, int dept_no);

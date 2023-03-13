@@ -8,8 +8,13 @@ int main(){
     if(take_input_classroom("Classroom.csv"))
         cout<<"CLASSROOMS READ" <<endl;
 
+    if(take_input_labsroom("Labsroom.csv"))
+        cout<<"Labs input taken"<<endl;
+        
     allocate_ic(ICs);
     allocate_classroom_same(ICs);
+
+    allocate_prac_IC(ICs);
     // allocate_ic(OEs);
     // allocate_classroom_same(OEs);
     allocate_dc(D_core);

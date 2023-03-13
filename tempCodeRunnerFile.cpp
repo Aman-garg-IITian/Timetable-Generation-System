@@ -1,0 +1,1 @@
+allocate_prac_IC(ICs);
