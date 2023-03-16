@@ -15,13 +15,14 @@ bool allocate_prac_IC(vector<course*> IC){
     }
     for(auto it: IC_with_prac){
         if(it->p > 4){
-            cout << "###### Labs greater than 4 hours are not allocated"<<endl;
+            cout<< "###### Labs greater than 4 hours are not allocated"<<endl;
             cout<<"The course code is : "<<it->course_code<<endl;
             cout<<endl;
             continue;
         }
-        allocate_prac_hours(it, it->p, it->first_p, it->lab_dept, 3);
-
+        for(int i=0; i<dept.size(); i++){
+            allocate_prac_hours(it, it->p, it->first_p, it->lab_dept, 3, dept[i]);
+        }
     }
     return true;
 }

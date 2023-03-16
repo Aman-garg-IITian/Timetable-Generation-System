@@ -1,5 +1,13 @@
 #include "ds.h"
 
+bool check_lab_id(string id_to_check){
+    for(auto it: labs_room){
+        if(it->id == id_to_check)
+            return true;
+    }
+    return false;
+}
+
 bool take_input_csv(string fname){
     
     vector< vector<string> > content;
@@ -23,13 +31,17 @@ bool take_input_csv(string fname){
             row.push_back(word);
             content.push_back(row);
         }
+        cout<<"dbe";
         cout<<"file opened"<<endl;
+        cout<<"#########";
     }
     else{
         cout<<"File not found!";
         return 0;
     }
+    cout<<content.size();
     for(int i=1;i<content.size();i++){
+        cout<<"&&&&&&&&&&&&";
         if(content[i][1]!= ""){
             course * temp_input = new course();
             if( content[i][3] =="Institute Core" ){
@@ -38,6 +50,28 @@ bool take_input_csv(string fname){
                 temp_input->l= stoi(content[i][6]);
                 temp_input->p= stoi(content[i][8]);
                 temp_input->t= stoi(content[i][7]);
+                cout<<"^^^^^^^^^^^^";
+                if(temp_input->p > 0){
+                    if(content[i][13].size() == 0){
+                        cout<<"###### lab id not provided for a course with p>0"<<endl;
+                        cout<<"Course is = "<<temp_input->course_code<<endl;
+                    }
+                    else{
+                        stringstream s(content[i][13]);
+                        string str;
+                        getline(s, str, ' ');
+                        while(str.size() > 0){
+                            if(check_lab_id(str) == false){
+                                labsroom_c * new_lab = new labsroom_c();
+                                new_lab->id = str;
+                                labs_room.push_back(new_lab);
+                            }
+                            temp_input->labs.push_back(str);
+                            getline(s, str, ' ');
+                        }
+                    }
+                }
+
                 ICs.push_back(temp_input);
             }
             else if(content[i][3] =="Departmental Core" ){

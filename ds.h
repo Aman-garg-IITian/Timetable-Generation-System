@@ -42,6 +42,7 @@ class instructor{
         this->first_slot = NULL;
     }
 };
+
 //structure for course
 class course{
     public:
@@ -59,6 +60,7 @@ class course{
     instructor* Prof;
     vector<string> coordinator;
     vector<string> allocated_classrooms;
+    vector<string> labs;  //it will store the requires lab for the course
 
     string lab_dept; //it will store the requires lab for the course
 };
@@ -81,20 +83,19 @@ class time_table{
         }
     }
 };
+class labsroom_c{
+    public:
+    string id;
+    int capacity;
+    string department;
+    time_table class_table;   //stores 2D table of class slots 
+};
 
 //structure for classrooms
 class classroom{
     public:
     string id;
     int capacity;
-    time_table class_table;   //stores 2D table of class slots 
-};
-
-class labsroom_c{
-    public:
-    string id;
-    int capacity;
-    string department;
     time_table class_table;   //stores 2D table of class slots 
 };
 
@@ -110,12 +111,11 @@ class DC{
 
 unordered_map <string, instructor *> map_instructor;  //this map will map a particular course to instructors using his/her name
 
-vector<labsroom_c*> labs_room;
-
 vector<course *> ICs, OEs;
 vector<DC *> D_core;
 vector<DC *> D_Elec;
 vector<classroom*> room;
+vector<labsroom_c*> labs_room;
 vector<time_table*> dept(no_of_dept);
 int lunch;
 int num_oe, oe_l, oe_t, oe_p;
@@ -125,6 +125,7 @@ string dept_name[no_of_dept] = {"CHEMICAL", "CIVIL", "CSE", "EE", "MECH", "MAT"}
 string dept_code[no_of_dept] = {"CH", "CE", "CS", "EE", "ME", "MT"};
 
 #include "input.cpp"
+bool check_lab_id(string id_to_check);
 bool take_input_csv(string fname);
 bool take_input_classroom(string fname);
 bool take_input_labsroom(string fname);
@@ -136,8 +137,11 @@ void add_instructor_slot(instructor *Prof, slot* s);
 #include "allocate_lectures.cpp"
 bool allocate_lecture(course* IC, int l, bool tut, slot *& head);
 
+#include "labcheck.cpp"
+bool lab_check(course* c,slot * slot_to_allot);
+
 #include "practical_hour.cpp"
-bool  allocate_prac_hours(course* c, int p, practical* first_prac, string lab_dept, int tut);
+bool  allocate_prac_hours(course* c, int p, practical* first_prac, string lab_dept, int tut, time_table* dept);
 
 #include "allocate_practicals_ic.cpp"
 bool allocate_prac_IC(vector<course*> ICs);
