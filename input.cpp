@@ -33,16 +33,15 @@ bool take_input_csv(string fname){
         }
         cout<<"dbe";
         cout<<"file opened"<<endl;
-        cout<<"#########";
+        // cout<<"#########";
     }
     else{
         cout<<"File not found!";
         return 0;
     }
     
-    cout<<content.size();
+    // cout<<content.size();
     for(int i=1;i<content.size();i++){
-        cout<<"&&&&&&&&&&&&";
         if(content[i][1]!= ""){
             course * temp_input = new course();
             if( content[i][3] =="Institute Core" ){
@@ -51,35 +50,57 @@ bool take_input_csv(string fname){
                 temp_input->l= stoi(content[i][6]);
                 temp_input->p= stoi(content[i][8]);
                 temp_input->t= stoi(content[i][7]);
-                cout<<"^^^^^^^^^^^^";
+                cout<<"no. of prac"<<temp_input->p<<endl;
                 if(temp_input->p > 0){
                     if(content[i][13].size() == 0){
                         cout<<"###### lab id not provided for a course with p>0"<<endl;
                         cout<<"Course is = "<<temp_input->course_code<<endl;
                     }
                     else{
-                        stringstream s(content[i][13]);
-                        string str;
-                        getline(s, str, ' ');
-                        while(str.size() > 0){
-                            if(check_lab_id(str) == false){
+                        // cout<< content[i][13]<<endl;
+                        stringstream aman(content[i][13]);
+                        string guess;
+                        while(getline(aman, guess, ' ')){
+                            if(check_lab_id(guess) == false){
                                 labsroom_c * new_lab = new labsroom_c();
-                                new_lab->id = str;
+                                new_lab->id = guess;
+                                // cout<<"alloted"<<guess<<endl;
                                 labs_room.push_back(new_lab);
                             }
-                            temp_input->labs.push_back(str);
-                            getline(s, str, ' ');
+                            // cout<<guess<<endl;
+                            temp_input->labs.push_back(guess);
                         }
                     }
                 }
 
                 ICs.push_back(temp_input);
             }
-            else if(content[i][3] =="Departmental Core" ){
+            else if(content[i][3] =="Departmental Core" || content[i][3] =="Departmental Elective" ){
                 temp_input->course_code = content[i][1];
                 temp_input->l= stoi(content[i][6]);
                 temp_input->p= stoi(content[i][8]);
                 temp_input->t= stoi(content[i][7]);
+                if(temp_input->p > 0){
+                    if(content[i][13].size() == 0){
+                        cout<<"###### lab id not provided for a course with p>0"<<endl;
+                        cout<<"Course is = "<<temp_input->course_code<<endl;
+                    }
+                    else{
+                        // cout<< content[i][13]<<endl;
+                        stringstream aman(content[i][13]);
+                        string guess;
+                        while(getline(aman, guess, ' ')){
+                            if(check_lab_id(guess) == false){
+                                labsroom_c * new_lab = new labsroom_c();
+                                new_lab->id = guess;
+                                // cout<<"alloted"<<guess<<endl;
+                                labs_room.push_back(new_lab);
+                            }
+                            // cout<<guess<<endl;
+                            temp_input->labs.push_back(guess);
+                        }
+                    }
+                }
                 D_core[dept_substr[(temp_input->course_code).substr(0,2)]]->DCs.push_back(temp_input);
             }
         }
