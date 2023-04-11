@@ -118,7 +118,7 @@ vector<classroom*> room;
 vector<labsroom_c*> labs_room;
 vector<time_table*> dept(no_of_dept);
 int lunch;
-int num_oe, oe_l, oe_t, oe_p;
+int num_oe, oe_l, oe_t, oe_p, oe_day, oe_slot;
 
 string dept_name[no_of_dept] = {"CHEMICAL", "CIVIL", "CSE", "EE", "MECH", "MAT"};
 //string dept_code[no_of_dept] = {"CHD", "CEL", "CSC", "CSD", "CSL", "CSP", "CYL", "EED", "EEL", "EEY", "EFP", "MEC", "MED", "MEL", "MEP", "MEY", "MTD", "MTL", "MTY", "PHC", "PHL"};

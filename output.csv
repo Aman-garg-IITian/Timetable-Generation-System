@@ -1,0 +1,44 @@
+PRINT CALLED
+TABLE FOR CHEMICAL
+2,CHD006U3M(TUT)  ,1,EFD011U3M       ,1,SBL001U3M       ,1,LUNCHBREAK      ,1,HSC026U3E       ,2,EFD011U3M(TUT)  ,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,1,HSC026U3E       ,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+TABLE FOR CIVIL
+0,empty,1,EFD011U3M       ,1,SBL001U3M       ,1,LUNCHBREAK      ,1,HSC026U3E       ,2,EFD011U3M(TUT)  ,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,1,HSC026U3E       ,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+TABLE FOR CSE
+1,test break      ,1,EFD011U3M       ,1,SBL001U3M       ,1,LUNCHBREAK      ,1,HSC026U3E       ,2,EFD011U3M(TUT)  ,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,1,HSC026U3E       ,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+TABLE FOR EE
+2,EED013U3M(TUT)  ,1,EFD011U3M       ,1,SBL001U3M       ,1,LUNCHBREAK      ,1,HSC026U3E       ,2,EFD011U3M(TUT)  ,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,1,HSC026U3E       ,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+TABLE FOR MECH
+0,empty,1,EFD011U3M       ,1,SBL001U3M       ,1,LUNCHBREAK      ,1,HSC026U3E       ,2,EFD011U3M(TUT)  ,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,1,HSC026U3E       ,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+TABLE FOR MAT
+2,MTD004U3M(TUT)  ,1,EFD011U3M       ,1,SBL001U3M       ,1,LUNCHBREAK      ,1,HSC026U3E       ,2,EFD011U3M(TUT)  ,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,1,HSC026U3E       ,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+1,EFD011U3M       ,1,SBL001U3M       ,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+0,empty,0,empty,0,empty,1,LUNCHBREAK      ,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,0,empty,
+COURSES AND CLASSROOMS ALLOCATED TO THEM:
+DIP004U3M,AC-2-06/
+EFD011U3M,AC-2-06/
+EFP011U3M,AC-2-06/
+HSC026U3E,AC-2-06/
+SBL001U3M,AC-2-06/
+SBP001U3M,AC-2-06/

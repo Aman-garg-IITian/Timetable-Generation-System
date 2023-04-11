@@ -151,12 +151,12 @@ bool take_input_csv(string fname){
     }
     
 
-    int break_slot, dept_no, day_no;
-    cout<<"ENTER DEPT NO AND BREAK SLOT and day no.: ";
-    cin>>dept_no>>break_slot>> day_no ;
-    course * break_name = new course();
-    break_name->course_code = "test break";
-    dept[dept_no]->table[day_no][break_slot] = make_pair(1,break_name);
+    // int break_slot, dept_no, day_no;
+    // cout<<"ENTER DEPT NO AND BREAK SLOT and day no.: ";
+    // cin>>dept_no>>break_slot>> day_no ;
+    // course * break_name = new course();
+    // break_name->course_code = "test break";
+    // dept[dept_no]->table[day_no][break_slot] = make_pair(1,break_name);
 
     //taking input for OE slots.
     cout<<"ENTER NO OF SLOTS FOR OPEN ELECTIVES:   ";
@@ -173,6 +173,39 @@ bool take_input_csv(string fname){
 
     }
 
+    for(int i(0);i<OEs.size();i++){
+        slot* temp_slot = new slot();
+        if((OEs[i]->l)>0){
+            for( int j(0); j<(OEs[i]->l); j++){
+                cout<<"Enter lecture slot "<<j+1<<"slot of OE "<<i+1<<"    :";
+                cin>>oe_day>>oe_slot;
+                temp_slot->day = oe_day;
+                temp_slot->time_slot = oe_slot;
+                for(int i=0; i<dept.size(); i++){
+                    dept[i]->table[temp_slot->day][temp_slot->time_slot] = make_pair(1,OEs[i]) ;
+                }
+            }
+        }
+        if((OEs[i]->p)>0){
+            cout<<"Enter practical slot  "<<"slot of OE "<<i+1<<"    :";
+            cin>>oe_day>>oe_slot;
+            // cout<<"#############"<<endl;
+            slot* temp_slot = new slot();
+            temp_slot->day = oe_day;
+            temp_slot->time_slot = oe_slot;
+            for(int k=0; k<dept.size(); k++){
+                cout<<"###################"<<k<<endl;
+                int j(0);
+                while(j<OEs[i]->p){
+                    dept[k]->table[temp_slot->day][temp_slot->time_slot] = make_pair(3,OEs[i]) ;
+                    temp_slot->time_slot += 1;
+                    j++;
+                    cout<<"done"<<endl;
+                }
+            }
+
+        }
+    }
     return 1;
 }
 
