@@ -1,0 +1,222 @@
+Courses offered data for 2022-23 semester 02,,,,,,,,,,,,,,,
+Slno,Course Code,Course Name,Course Category,Course Type,Department,Credits,Lectures,Tutorial,Practical,Course cordinator Id,Course cordinator Name,Course Instructor Id,Course Instructor Name,Semester/Batch,Students registered
+1,HSL022P6G,Cognitive Psychology,Open Elective,THEORY,HU,3,3,0,0,IITJMU11062,Amitash Ojha,,,2019-20_2020-21_2021-22_2022-23,1
+2,EEP076P1M,Advanced System Design Lab.,Departmental Practical,PRACTICAL,EE,2,0,0,3,IITJMU11071,Ambika Prasad Shah,,,2019-20_2020-21_2021-22_2022-23,13
+3,MTS200U3X,UG Seminar,Credit Earning Course,TRAINING / SEMINAR,MT,1,0,0,2,IITJMU11060,Shantanu Vijay Madge,,,2019-20_2020-21_2021-22_2022-23,20
+4,EEL005P5E,Information Theory and Coding,Departmental Elective,THEORY,EE,3,3,0,0,IITJMU11014,Ravikant Saini,,,2019-20_2020-21_2021-22_2022-23,2
+5,EED012U2M,Digital Design and Microcomputers,Departmental Core,THEORY,EE,3,3,1,0,IITJMU11034,Ankit Dubey,,,2019-20_2020-21_2021-22_2022-23,42
+6,EED003U2M,Engineering Electromagnetics,Departmental Core,THEORY,EE,3,3,1,0,IITJMU40008,Jegannathan Srinivasan,,,2019-20_2020-21_2021-22_2022-23,38
+7,EED015U3M,Power Engineering,Departmental Core,THEORY,EE,3,3,1,0,IITJMU11002,Anup Shukla,,,2019-20_2020-21_2021-22_2022-23,36
+8,EEP012U2M,Digital Design and Microcomputers Laboratory,Departmental Practical,PRACTICAL,EE,1,0,0,2,IITJMU11034,Ankit Dubey,,,2019-20_2020-21_2021-22_2022-23,38
+9,EEP015U3M,Power Engineering Laboratory,Departmental Practical,PRACTICAL,EE,1,0,0,2,IITJMU11002,Anup Shukla,,,2019-20_2020-21_2021-22_2022-23,36
+10,EEP003U2M,Engineering Electromagnetics Laboratory,Departmental Practical,PRACTICAL,EE,1,0,0,2,IITJMU40008,Jegannathan Srinivasan,,,2019-20_2020-21_2021-22_2022-23,38
+11,EEL016U3M,Analog Electronics,Departmental Core,THEORY,EE,3,3,0,0,IITJMU11044,Kankat Ghosh,,,2019-20_2020-21_2021-22_2022-23,36
+12,EEP016U3M,Analog Electronics Laboratory,Departmental Practical,PRACTICAL,EE,1,0,0,2,IITJMU11044,Kankat Ghosh,,,2019-20_2020-21_2021-22_2022-23,36
+13,EEL005P1M,Adaptive Signal Processing,Departmental Core,THEORY,EE,3,3,0,0,IITJMU11009,Karan Nathwani,,,2019-20_2020-21_2021-22_2022-23,15
+14,EEL006P1M,Antenna & Wave Propagation,Departmental Core,THEORY,EE,3,3,0,0,IITJMU11004,Kushmanda Saurav,,,2019-20_2020-21_2021-22_2022-23,25
+15,EEL007P1M,Detection & Estimation Theory,Departmental Core,THEORY,EE,3,3,0,0,IITJMU11064,Ankur Bansal,,,2019-20_2020-21_2021-22_2022-23,19
+16,EEL064U3E,Digital Communications,Departmental Elective,THEORY,EE,3,3,0,0,IITJMU11021,Ajay Singh,,,2019-20_2020-21_2021-22_2022-23,23
+17,EEL079P5E,Wireless Communications,Departmental Elective,THEORY,EE,3,3,0,0,IITJMU11034,Ankit Dubey,,,2019-20_2020-21_2021-22_2022-23,23
+18,EEZ112P2M,Dissertation-II,Dissertation,DISSERTATION,EE,12,0,0,24,IITJMU11010,Badri Narayan Subudhi,,,2019-20_2020-21_2021-22_2022-23,14
+19,EEP082U3G,Hardware Description Language Laboratory,Departmental Core,PRACTICAL,EE,1,0,0,2,IITJMU11043,Satyadev Ahlawat,IITJMU11071,Ambika Prasad Shah,2019-20_2020-21_2021-22_2022-23,34
+20,CHL030P6G,Biochemical Engineering,Departmental Elective,THEORY,CH,3,3,0,0,IITJMU11081,Ashutosh Yadav,IITJMU11069,Dharitri Rath,2019-20_2020-21_2021-22_2022-23,25
+21,EFL005U1M,Basic Electronics Engineering,Institute Core - Engineering Foundation,THEORY,EE,3,3,0,0,IITJMU11026,Alok Kumar Saxena,,,2019-20_2020-21_2021-22_2022-23,38
+22,DIP005U3M,Product Development - II,Design Core,PROJECT,EE,1,0,0,2,IITJMU11044,Kankat Ghosh,IITJMU11016_IITJMU11029_IITJMU11059_IITJMU11067_IITJMU11075,Rajendra Kumar Varma_Vijay Kumar Pal_Subhasis Bhattacharjee_Yogesh Madhukarrao Nimdeo_Srishilan C,2019-20_2020-21_2021-22_2022-23,173
+23,EE-1-03(TO),Electronics System,Engineering Core,THEORY,EE,3,3,1,0,IITJMU11107,Archana Rajput,,,2022-23,79
+24,EED001U2M,Network Analysis and Synthesis,Departmental Core,THEORY,EE,3,3,1,0,IITJMU11010,Badri Narayan Subudhi,,,2019-20_2020-21_2021-22_2022-23,4
+25,PHL020P1M,Thermodynamics and Equilibrium Statistical Mechanics,Departmental Core,THEORY,PH,3,3,0,0,IITJMU11036,Ajeet Kumar Sharma,,,2019-20_2020-21_2021-22_2022-23,6
+26,MEL042U3E,Introduction to Bioinspired Engineering,Open Elective,THEORY,BB_CH_CE_CS_EE_MT_ME,3,3,0,0,IITJMU40005,R. Uma Shankar,IITJMU11015,Anand Kumar Subramaniyan,2019-20_2020-21_2021-22_2022-23,58
+27,BBL004U3E,Biosensors,Open Elective,THEORY,BB_CH_CE_CS_EE_MT_ME,3,3,0,0,IITJMU11069,Dharitri Rath,IITJMU11101,Vinay Sharma,2019-20_2020-21_2021-22_2022-23,
+28,BBL002U3E,Biophysics and Biochemistry,Open Category,THEORY,BB_CH_CE_CS_EE_MT_ME,3,3,0,0,IITJMU11101,Vinay Sharma,IITJMU11036,Ajeet Kumar Sharma,2019-20_2020-21_2021-22_2022-23,
+29,BBL011P6M,Research Methods and Ethics,Open Elective,THEORY,BB_CH_CY_CE_CS_EE_HU_MT_MA_ME_PH,2,2,0,0,IITJMU40005,R. Uma Shankar,IITJMU11093,Suresh Roland Devasahayam,2019-20_2020-21_2021-22_2022-23,6
+30,HSL044U2M,Globalization and Development,Institute Core,THEORY,HU,2,2,0,0,IITJMU11056,Sayantan Mandal,,,2019-20_2020-21_2021-22_2022-23,181
+31,HSL045U2M,Higher Education and Society,Institute Core,THEORY,HU,2,2,0,0,IITJMU11056,Sayantan Mandal,,,2019-20_2020-21_2021-22_2022-23,143
+32,HSL201U3M,Introduction to Philosophy,Institute Core,THEORY,HU,3,3,0,0,IITJMU11052,Joby Varghese,,,2019-20_2020-21_2021-22_2022-23,40
+33,MTD002U2M,Characterization of Materials,Departmental Core,THEORY,MT,3,3,1,0,IITJMU11096,Suman Sarkar,,,2019-20_2020-21_2021-22_2022-23,29
+34,MTP001U2M,Materials Characterization Laboratory,Departmental Practical,PRACTICAL,MT,2,0,0,4,IITJMU11075,Srishilan C,IITJMU11100_IITJMU11077,Srinivasan N_Rani Rohini,2019-20_2020-21_2021-22_2022-23,29
+35,EFD009U2M,Electronic materials: Fundamentals and device concepts,Institute Core - Engineering Foundation,THEORY,MT,3,3,1,0,IITJMU11066,Biswanath Chakraborty,IITJMU11044,Kankat Ghosh,2019-20_2020-21_2021-22_2022-23,205
+36,HSL031U3M,Concepts in Indian Philosophy,Institute Core,THEORY,HU,2,2,0,0,IITJMU11062,Amitash Ojha,,,2019-20_2020-21_2021-22_2022-23,75
+37,HSL046U2M,Usability and User Experience,Institute Core,THEORY,HU,2,2,0,0,IITJMU11062,Amitash Ojha,,,2019-20_2020-21_2021-22_2022-23,138
+38,HSL035U3M,Problems of Philosophy,Institute Core,THEORY,HU,2,2,0,0,IITJMU40006,Bijoy H Boruah,,,2019-20_2020-21_2021-22_2022-23,18
+39,HSL057U2M,Technoscience and Transhumanism,Institute Core,THEORY,HU,2,2,0,0,IITJMU40006,Bijoy H Boruah,,,2019-20_2020-21_2021-22_2022-23,32
+40,HSL050U2M,Intermediate Econometrics,Open Elective,THEORY / PRACTICAL,HU,2,1,0,1,IITJMU11086,Bhaskar Jyoti Neog,,,2019-20_2020-21_2021-22_2022-23,14
+41,HSL066P6G,Intermediate Macroeconomics,Open Elective,THEORY,HU,2,2,0,0,IITJMU11086,Bhaskar Jyoti Neog,,,2019-20_2020-21_2021-22_2022-23,16
+42,HSL029U3M,Introduction to Economics,Institute Core,THEORY,HU,3,3,0,0,IITJMU11086,Bhaskar Jyoti Neog,,,2019-20_2020-21_2021-22_2022-23,223
+43,HSL072U3E,Introduction to Sustainable Development,Open Elective,THEORY,HU,2,2,0,0,IITJMU11062,Amitash Ojha,IITJMU20024,Ashoke Kumar Sarkar,2019-20_2020-21_2021-22_2022-23,93
+44,MTD003U2M,Phase Transformations in Materials,Departmental Core,THEORY,MT,3,3,1,0,IITJMU11060,Shantanu Vijay Madge,,,2019-20_2020-21_2021-22_2022-23,29
+45,CEL003U2M,Structural Analysis,Departmental Core,THEORY,CE,3,3,0,0,IITJMU11051,Rimen Jamatia,,,2019-20_2020-21_2021-22_2022-23,32
+46,CEL001U2M,Transportation and Highway Engineering,Departmental Core,THEORY,CE,3,3,0,0,IITJMU11054,Ankit Kathuria,,,2019-20_2020-21_2021-22_2022-23,34
+47,CEP003U2M,Structural Analysis Lab,Departmental Practical,PRACTICAL,CE,1,0,0,2,IITJMU11051,Rimen Jamatia,,,2019-20_2020-21_2021-22_2022-23,32
+48,CEP005U2M,Surveying Laboratory,Departmental Practical,PRACTICAL,CE,2,0,0,4,IITJMU11080,Divyesh Varade,,,2019-20_2020-21_2021-22_2022-23,32
+49,CEL008U3M,Design of Steel Structures,Departmental Core,THEORY,CE,3,3,0,0,IITJMU11049,Surendra Beniwal,,,2019-20_2020-21_2021-22_2022-23,26
+50,CEL004U2M,Construction Management and Practices,Design Core,THEORY,CE,3,3,0,0,IITJMU10101,Anurag Misra,,,2019-20_2020-21_2021-22_2022-23,26
+51,CEP006U3M,Civil Engineering Materials lab,Departmental Practical,PRACTICAL,CE,1,0,0,2,IITJMU11047,Sameer Kumar Sarma Pachalla,IITJMU11049,Surendra Beniwal,2019-20_2020-21_2021-22_2022-23,27
+52,CES200U3X,UG Seminar,Credit Earning Course,TRAINING / SEMINAR,CE,1,0,0,2,IITJMU11080,Divyesh Varade,,,2019-20_2020-21_2021-22_2022-23,26
+53,CEL040U3E,Engineering Hydrology,Departmental Elective,THEORY,CE,3,3,0,0,IITJMU11085,Chembolu Vinay,,,2019-20_2020-21_2021-22_2022-23,26
+54,CEP001U2M,Transportation and Highway Engineering laboratory,Departmental Practical,PRACTICAL,CE,2,0,0,3,IITJMU11054,Ankit Kathuria,,,2019-20_2020-21_2021-22_2022-23,26
+55,CEY402U4M,BTP-II,Departmental Core,PROJECT,CE,5,0,0,10,IITJMU11085,Chembolu Vinay,,,2019-20_2020-21_2021-22_2022-23,28
+56,CEL010P4G,Disaster Management,Open Category,THEORY,CE,3,3,0,0,IITJMU11085,Chembolu Vinay,IITJMU11078_IITJMU11092_IITJMU11016_IITJMU11080_IITJMU11008_IITJMU11080,Riya Bhowmik_Pratik Kumar_Rajendra Kumar Varma_Divyesh Varade_Nitin Joshi_Divyesh Varade,2019-20_2020-21_2021-22_2022-23,18
+57,CEL012P1M,Tunnel Excavation Methods and Philosophies,Departmental Core,THEORY,CE,3,3,0,0,IITJMU11078,Riya Bhowmik,,,2019-20_2020-21_2021-22_2022-23,12
+58,CEL011P1M,Monitoring and Maintenance of Tunnels,Departmental Core,THEORY,CE,3,3,0,0,IITJMU11047,Sameer Kumar Sarma Pachalla,IITJMU10101,Anurag Misra,2019-20_2020-21_2021-22_2022-23,12
+59,CEL112P4E,Fracture Mechanics,Departmental Elective,THEORY,CE,3,3,0,0,IITJMU11082,Pervaiz Fathima Khatoon M,,,2019-20_2020-21_2021-22_2022-23,14
+60,CEL031P2E,Environmental Impact Assessment in Tunnel Engineering,Departmental Elective,THEORY,CE,3,3,0,0,IITJMU11092,Pratik Kumar,,,2019-20_2020-21_2021-22_2022-23,12
+61,CEP101P1M,Rock Mechanics Laboratory,Departmental Practical,PRACTICAL,CE,1,0,0,2,IITJMU11104,Sivakumar G,,,2019-20_2020-21_2021-22_2022-23,12
+62,CEP102P1M,Geology and Geophysical Investigations Lab,Departmental Practical,PRACTICAL,CE,1,0,0,2,IITJMU11103,Prasun Halder,,,2019-20_2020-21_2021-22_2022-23,12
+63,CEZ132P2M,Dissertation-II,Dissertation,DISSERTATION,CE,14,0,0,28,IITJMU11078,Riya Bhowmik,,,2019-20_2020-21_2021-22_2022-23,14
+64,CEL047U3E,Railway Engineering,Departmental Elective,THEORY,CE,3,3,0,0,IITJMU11054,Ankit Kathuria,,,2019-20_2020-21_2021-22_2022-23,27
+65,SMD002U1M,Linear Algebra and Differential Equations,Institute Core,THEORY,MA,3,3,1,0,IITJMU11074,Manmohan Vashisth,IITJMU11102,Arvind Kumar,2019-20_2020-21_2021-22_2022-23,37
+66,MAD006P6E,Finite Fields,Departmental Elective,THEORY,MA,3,3,1,0,IITJMU11020,Sartaj Ul Hasan,,,2019-20_2020-21_2021-22_2022-23,3
+67,MAD005P6E,Commutative Algebra,Departmental Elective,THEORY,MA,3,3,1,0,IITJMU11079,Rajiv Kumar,,,2019-20_2020-21_2021-22_2022-23,3
+68,PHL021P1M,Condensed Matter Physics,Departmental Core,THEORY,PH,3,3,0,0,IITJMU11006,Rahul Raghunath Salunkhe,IITJMU11003,Ashok Bera,2019-20_2020-21_2021-22_2022-23,6
+69,PHC023P1M,Numerical methods and computational physics,Departmental Core,THEORY,PH,3,2,0,2,IITJMU11011,Sanat Kumar Tiwari,,,2019-20_2020-21_2021-22_2022-23,8
+70,PHL011P6G,Characterization of Materials,Open Elective,THEORY,PH,3,3,0,0,IITJMU11003,Ashok Bera,,,2019-20_2020-21_2021-22_2022-23,4
+71,MAD009P6G,Partial Differential Equations,Open Elective,THEORY,MA,3,3,1,0,IITJMU11019,Tanmay Sarkar,,,2019-20_2020-21_2021-22_2022-23,11
+72,PHS024P1M,Seminar 1 (Research),Departmental Core,THEORY,PH,1,0,0,2,IITJMU11063,Venkata Sathish Akella,,,2019-20_2020-21_2021-22_2022-23,6
+73,PHP025P1M,Physics Laboratory (General),Departmental Core,PRACTICAL,PH,4,0,0,8,IITJMU11063,Venkata Sathish Akella,,,2019-20_2020-21_2021-22_2022-23,6
+74,MTL007U3M,Engineering Ceramics,Departmental Core,THEORY,MT,3,3,0,0,IITJMU11100,Srinivasan N,,,2019-20_2020-21_2021-22_2022-23,21
+75,MTL008U3M,Industrial Materials Processing,Departmental Core,THEORY,MT,3,3,0,0,IITJMU11100,Srinivasan N,,,2019-20_2020-21_2021-22_2022-23,21
+76,MTP003U3M,Materials Processing Laboratory-II,Departmental Practical,PRACTICAL,MT,2,0,0,4,IITJMU11096,Suman Sarkar,IITJMU11060_IITJMU11075_IITJMU11077,Shantanu Vijay Madge_Srishilan C_Rani Rohini,2019-20_2020-21_2021-22_2022-23,21
+77,CSC029U2M,Principles of Programming Languages,Departmental Core,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU11059,Subhasis Bhattacharjee,,,2019-20_2020-21_2021-22_2022-23,41
+78,CSD019U2M,Design and Analysis of Algorithms,Departmental Core,THEORY,CS,3,3,1,0,IITJMU11105,Harkeerat Kaur,,,2019-20_2020-21_2021-22_2022-23,120
+79,CSL019U3M,Theory of Computation,Departmental Core,THEORY,CS,3,3,0,0,IITJMU11083,Suman Banerjee,,,2019-20_2020-21_2021-22_2022-23,39
+80,CSC032U3M,Computer Networks,Departmental Core,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU11045,Gaurav Varshney,,,2019-20_2020-21_2021-22_2022-23,63
+81,CSC033U3M,Machine Learning,Departmental Core,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU11088,Shaifu Gupta,,,2019-20_2020-21_2021-22_2022-23,66
+82,CSC045P1M,High Performance Computer Systems,Departmental Core,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU11059,Subhasis Bhattacharjee,,,2019-20_2020-21_2021-22_2022-23,5
+83,CSL058U3E,High Performance Computer Systems,Departmental Elective,THEORY,CS,3,3,0,0,IITJMU11059,Subhasis Bhattacharjee,,,2019-20_2020-21_2021-22_2022-23,16
+84,CSC046P1M,Computer Networks,Departmental Core,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU11045,Gaurav Varshney,,,2019-20_2020-21_2021-22_2022-23,5
+85,MEP006U2M,Manufacturing Laboratory I,Departmental Practical,PRACTICAL,ME,2,0,0,3,IITJMU11027,Shiva S,,,2019-20_2020-21_2021-22_2022-23,37
+86,MTP004U3M,Materials Simulation Laboratory,Departmental Practical,PRACTICAL,MT,2,0,0,4,IITJMU11075,Srishilan C,,,2019-20_2020-21_2021-22_2022-23,21
+87,MED005U2M,Heat Transfer,Departmental Core,THEORY,ME,3,3,1,0,IITJMU11033,Goutam Dutta,,,2019-20_2020-21_2021-22_2022-23,37
+88,CS-1-02(MO),Data Structure and Algorithms,Engineering Core,THEORY / PRACTICAL,CS,3,2,0,2,IITJMU11024,Vinit Jakhetiya,,,2022-23,173
+89,MTL017P6G,Rheology of Complex Fluids,Departmental Elective,THEORY,MT,3,3,0,0,IITJMU11077,Rani Rohini,IITJMU11067,Yogesh Madhukarrao Nimdeo,2019-20_2020-21_2021-22_2022-23,32
+90,MTL012U3E,Advanced concepts of nanostructured materials,Departmental Elective,THEORY,MT,3,3,0,0,IITJMU11077,Rani Rohini,,,2019-20_2020-21_2021-22_2022-23,27
+91,MTL014U3E,Design of Steel Making,Departmental Elective,THEORY,MT,3,3,0,0,IITJMU11075,Srishilan C,,,2019-20_2020-21_2021-22_2022-23,13
+92,MTL015U3E,Transport Phenomena for Materials Processing,Departmental Elective,THEORY,MT,3,3,0,0,IITJMU11075,Srishilan C,,,2019-20_2020-21_2021-22_2022-23,2
+93,CSL033U4E,Natural Language Processing,Departmental Elective,THEORY,CS,3,3,0,0,IITJMU11028,Yamuna Prasad,,,2019-20_2020-21_2021-22_2022-23,12
+94,CSL029U4E,Cryptography,Departmental Elective,THEORY,CS,3,3,0,0,IITJMU11046,Sumit Kumar Pandey,,,2019-20_2020-21_2021-22_2022-23,18
+95,MEC046U3E,Powder Bed Fusion Additive Manufacturing,Departmental Elective,THEORY / PRACTICAL,ME,2,1,0,1,IITJMU11015,Anand Kumar Subramaniyan,IITJMU11090,Rajkumar V,2019-20_2020-21_2021-22_2022-23,15
+96,CYL013P1M,Group Theory: Basics and Applications,Credit Earning Course,THEORY,CY,3,3,0,0,IITJMU11018,Shivnath Mazumder,,,2019-20_2020-21_2021-22_2022-23,11
+97,CYL014P1M,Organometallics and Catalysis,Credit Earning Course,THEORY,CY,3,3,0,0,IITJMU11005,Subhas Samanta,,,2019-20_2020-21_2021-22_2022-23,11
+98,CYL015P1M,Contemporary Organic Synthesis,Credit Earning Course,THEORY,CY,3,3,0,0,IITJMU11055,Guru Brahamam Ramani,,,2019-20_2020-21_2021-22_2022-23,11
+99,CYL016P1M,Biocatalysis and Metalloproteins,Credit Earning Course,THEORY,CY,2,2,0,0,IITJMU11061,Jayaramulu Kolleboyina,,,2019-20_2020-21_2021-22_2022-23,11
+100,CYL017P1M,Chemical Kinetics and Thermodynamics,Credit Earning Course,THEORY,CY,3,3,0,0,IITJMU11065,Amlan Kumar Pal,,,2019-20_2020-21_2021-22_2022-23,11
+101,CYP018P1M,Organic Chemistry Laboratory,Credit Earning Course,PRACTICAL,CY,3,0,0,6,IITJMU11001,Pankaj Chauhan,,,2019-20_2020-21_2021-22_2022-23,11
+102,MEL017U3M,Manufacturing System Design,Departmental Core,THEORY,ME,3,3,0,0,IITJMU11029,Vijay Kumar Pal,,,2019-20_2020-21_2021-22_2022-23,32
+103,HSL059U2M,Introduction to Industrial and Organisational Psychology,Open Elective,THEORY,HU,2,2,0,0,IITJMU11062,Amitash Ojha,,,2019-20_2020-21_2021-22_2022-23,76
+104,MEY402U4M,BTP-II,BTP,PRACTICAL,ME,5,0,0,10,IITJMU11029,Vijay Kumar Pal,,,2019-20_2020-21_2021-22_2022-23,33
+105,CHL038P6G,Heterogeneous Catalysis,Departmental Elective,THEORY,CH,3,3,0,0,IITJMU11097,Aditya Shankar Sandupatla,,,2019-20_2020-21_2021-22_2022-23,1
+106,MEL054U3E,Tomographic Nondestructive Testing,Open Elective,THEORY,ME,3,3,0,0,IITJMU40009,Prabhat Munshi,,,2019-20_2020-21_2021-22_2022-23,4
+107,CEY403U4E,Mini Project,Open Elective,PROJECT,CE,2,0,0,4,,,,,2019-20_2020-21_2021-22_2022-23,8
+108,CCP007U2X,Creative Art-II,Credit Earning Course,THEORY / PRACTICAL,HU,1,0,0,2,IITJMU11062,Amitash Ojha,,,2019-20_2020-21_2021-22_2022-23,209
+109,CSL021U4E,Probability and Stochastic Process,Departmental Elective,THEORY,CS_MA,3,3,0,0,IITJMU11019,Tanmay Sarkar,,,2019-20_2020-21_2021-22_2022-23,27
+110,MEL004U2M,Kinematics and Dynamics of Machines,Departmental Core,THEORY,ME,3,3,0,0,IITJMU11057,Saurabh Biswas,,,2019-20_2020-21_2021-22_2022-23,41
+111,MET300U4X,Internship,Credit Earning Course,THEORY,ME,1,0,0,2,IITJMU11053,Satya Sekhar Bhogilla,,,2019-20_2020-21_2021-22_2022-23,33
+112,CEC021P6E,River Mechanics,Departmental Elective,THEORY / PRACTICAL,CE,3,2,0,2,IITJMU11085,Chembolu Vinay,,,2019-20_2020-21_2021-22_2022-23,1
+113,EEP003P1M,RF System Lab,Departmental Elective,PRACTICAL,EE,2,0,0,4,IITJMU11004,Kushmanda Saurav,,,2019-20_2020-21_2021-22_2022-23,1
+114,MEL053P6G,Nuclear Security,Open Elective,THEORY,ME,3,3,0,0,IITJMU40009,Prabhat Munshi,,,2019-20_2020-21_2021-22_2022-23,1
+115,HSL071U3E,ipo to IPO: Launch and Growth,Open Elective,THEORY,HU,3,3,0,0,IITJMU11062,Amitash Ojha,,,2019-20_2020-21_2021-22_2022-23,13
+116,EEL037P1M,Embedded System Design,Departmental Core,THEORY,EE,3,3,0,0,IITJMU11043,Satyadev Ahlawat,,,2019-20_2020-21_2021-22_2022-23,20
+117,EEP037P1M,Embedded System Design Lab,Departmental Core,PRACTICAL,EE,1,0,0,2,IITJMU11043,Satyadev Ahlawat,,,2019-20_2020-21_2021-22_2022-23,19
+118,EEL075P1M,Cyber Physical Systems,Departmental Core,THEORY,EE,3,3,0,0,IITJMU11039,Sudhakar Modem,,,2019-20_2020-21_2021-22_2022-23,26
+119,HSL058U3E,ipo to IPO: Value Proposition Design,Open Elective,THEORY,HU,3,3,0,0,IITJMU11062,Amitash Ojha,,,2019-20_2020-21_2021-22_2022-23,30
+120,CSC042U4E,Internet of Things,Departmental Elective,THEORY / PRACTICAL,CS,3,2,0,2,,,,,2019-20_2020-21_2021-22_2022-23,11
+121,MTY402U4M,BTP-II,BTP,PROJECT,MT,5,0,0,10,IITJMU11077,Rani Rohini,IITJMU11096_IITJMU11100_IITJMU11075_IITJMU11060,Suman Sarkar_Srinivasan N_Srishilan C_Shantanu Vijay Madge,2019-20_2020-21_2021-22_2022-23,20
+122,SCL001U2M,Introduction to Fundamental and Applied Chemistry,Credit Earning Course,THEORY,CY,3,3,0,0,IITJMU11061,Jayaramulu Kolleboyina,IITJMU11065_IITJMU11001,Amlan Kumar Pal_Pankaj Chauhan,2019-20_2020-21_2021-22_2022-23,210
+123,SCP001U1M,Chemistry Laboratory,Credit Earning Course,PRACTICAL,CY,2,0,0,3,IITJMU11018,Shivnath Mazumder,IITJMU11005_IITJMU11055,Subhas Samanta_Guru Brahamam Ramani,2019-20_2020-21_2021-22_2022-23,210
+124,EEL071U3E,Advanced Engineering Electromagnetics,Departmental Elective,THEORY,EE,3,3,0,0,IITJMU11004,Kushmanda Saurav,,,2019-20_2020-21_2021-22_2022-23,24
+125,EEC078P6G,Smart Sensors and MEMS Devices,Departmental Elective,THEORY,EE,3,2,0,2,IITJMU11093,Suresh Roland Devasahayam,IITJMU11048_IITJMU11010,Sahil Kalra_Badri Narayan Subudhi,2019-20_2020-21_2021-22_2022-23,11
+126,CSC049P1M,Modern Cryptography,Departmental Core,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU11046,Sumit Kumar Pandey,,,2019-20_2020-21_2021-22_2022-23,7
+127,CSC050P1M,Information Security,Departmental Core,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU10001,Manoj Singh Gaur,IITJMU11106,Samaresh Bera,2019-20_2020-21_2021-22_2022-23,7
+128,PHL033P1X,Quantum Mechanics II,Credit Earning Course,THEORY,PH,3,3,0,0,IITJMU11066,Biswanath Chakraborty,,,2019-20_2020-21_2021-22_2022-23,6
+129,CYL002P6E,Advanced Organic Synthesis: Named Reactions & Applications,Credit Earning Course,THEORY,CY,3,3,0,0,IITJMU11001,Pankaj Chauhan,IITJMU11055,Guru Brahamam Ramani,2019-20_2020-21_2021-22_2022-23,1
+130,EFD007U2M,Mechanics of Solids,Institute Core,THEORY,CE,3,3,1,0,IITJMU11016,Rajendra Kumar Varma,,,2019-20_2020-21_2021-22_2022-23,58
+131,EEL052P3E,"Sensors, Actuators and Instrumentation",Departmental Elective,THEORY,EE,3,2,0,2,IITJMU11093,Suresh Roland Devasahayam,IITJMU11048,Sahil Kalra,2019-20_2020-21_2021-22_2022-23,15
+132,CSC040U4E,BigData and Application,Open Category,THEORY / PRACTICAL,CS,3,2,0,2,,,,,2019-20_2020-21_2021-22_2022-23,16
+133,CSY053U3E,Research and Development Project (RDP),Departmental Elective,THEORY / PRACTICAL,CS,3,0,0,6,IITJMU11024,Vinit Jakhetiya,,,2019-20_2020-21_2021-22_2022-23,1
+134,CSY402U4M,BTP-II,Departmental Core,PRACTICAL,CS,5,0,0,10,IITJMU11059,Subhasis Bhattacharjee,,,2019-20_2020-21_2021-22_2022-23,37
+135,EEL033P2E,Advanced Engineering Electromagnetics,Departmental Elective,THEORY,EE,3,3,0,0,IITJMU11004,Kushmanda Saurav,,,2019-20_2020-21_2021-22_2022-23,3
+136,EEL001P1M,Signal Theory,Departmental Elective,THEORY,EE,3,3,0,0,IITJMU11064,Ankur Bansal,,,2019-20_2020-21_2021-22_2022-23,5
+137,EEL004P4M,Digital Communications,Departmental Elective,THEORY,EE,3,3,0,0,IITJMU11034,Ankit Dubey,,,2019-20_2020-21_2021-22_2022-23,3
+138,EEP004P4M,Digital Communications Lab,Departmental Practical,PRACTICAL,EE,2,0,0,4,IITJMU11034,Ankit Dubey,,,2019-20_2020-21_2021-22_2022-23,2
+139,EEL085P1E,Analog and Mixed Signal VLSI Circuits,Departmental Elective,THEORY,EE,3,3,0,0,IITJMU11071,Ambika Prasad Shah,,,2019-20_2020-21_2021-22_2022-23,20
+140,CHD003U2M,Fluid Flow and Mechanical Operations,Departmental Core,THEORY,CH,3,3,1,0,IITJMU11070,Ravi Kumar Arun,,,2019-20_2020-21_2021-22_2022-23,33
+141,MAD038P6E,Analysis on Manifolds,Departmental Elective,THEORY,MA,3,3,1,0,IITJMU11074,Manmohan Vashisth,,,2019-20_2020-21_2021-22_2022-23,2
+142,MAD040P6E,Functional Analysis,Departmental Elective,THEORY,MA,3,3,1,0,IITJMU11102,Arvind Kumar,IITJMU11074,Manmohan Vashisth,2019-20_2020-21_2021-22_2022-23,2
+143,MAD037P6E,Advanced Commutative Algebra,Departmental Elective,THEORY,MA,3,3,1,0,IITJMU11038,Ajay Kumar,,,2019-20_2020-21_2021-22_2022-23,2
+144,CHD004U2M,Heat Transfer,Departmental Core,THEORY,CH,3,3,1,0,IITJMU11076,Ankit Tyagi,,,2019-20_2020-21_2021-22_2022-23,33
+145,MAD041P6E,Algebraic Function Fields,Departmental Elective,THEORY,MA,3,3,1,0,IITJMU11095,Prasant Singh,,,2019-20_2020-21_2021-22_2022-23,1
+146,CHD005U2M,Mass Transfer,Departmental Core,THEORY,CH,3,3,1,0,IITJMU20023,Pallippattu Krishnan Vijayan,IITJMU11069,Dharitri Rath,2019-20_2020-21_2021-22_2022-23,37
+147,CHD008U4M,Industrial Separations and Reactors,Departmental Core,THEORY,CH,3,3,1,0,IITJMU11097,Aditya Shankar Sandupatla,,,2019-20_2020-21_2021-22_2022-23,25
+148,CH-1-03(TO),Chemical and Process Engineering Calculations,Departmental Core,THEORY,CH,3,3,1,0,IITJMU11067,Yogesh Madhukarrao Nimdeo,IITJMU11076,Ankit Tyagi,2022-23,40
+149,CHL036U3E,Biosensors,Open Elective,THEORY,CH,3,3,0,0,IITJMU11069,Dharitri Rath,,,2019-20_2020-21_2021-22_2022-23,
+150,CHL027P6G,Petroleum Refinery and Petrochemicals,Departmental Elective,THEORY,CH,3,3,0,0,IITJMU11081,Ashutosh Yadav,,,2019-20_2020-21_2021-22_2022-23,25
+151,CHL029P5G,"Nanomaterials: Synthesis, Characterization, and Applications",Departmental Elective,THEORY,CH,3,3,0,0,IITJMU11076,Ankit Tyagi,IITJMU11069,Dharitri Rath,2019-20_2020-21_2021-22_2022-23,30
+152,CHD010P5M,Transport Phenomenon,Departmental Elective,THEORY,CH,3,3,1,0,IITJMU11069,Dharitri Rath,,,2019-20_2020-21_2021-22_2022-23,
+153,CHL016P5G,Natural Circulation Based Passive Safety Systems,Departmental Elective,THEORY,CH,3,3,0,0,IITJMU20023,Pallippattu Krishnan Vijayan,,,2019-20_2020-21_2021-22_2022-23,5
+154,CHP009U3M,Separation Processes and Reaction Engineering Lab,Departmental Practical,PRACTICAL,CH,2,0,0,4,IITJMU11067,Yogesh Madhukarrao Nimdeo,IITJMU11097,Aditya Shankar Sandupatla,2019-20_2020-21_2021-22_2022-23,25
+155,CHY402U4M,BTP-II,Departmental Core,DISSERTATION,CH,5,0,0,10,IITJMU11069,Dharitri Rath,,,2019-20_2020-21_2021-22_2022-23,29
+156,CSC048P1M,Pattern Recognition Machine Learning,Departmental Core,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU11105,Harkeerat Kaur,,,2019-20_2020-21_2021-22_2022-23,8
+157,CSC047P1M,Big Data and Large Scale Computing,Departmental Core,THEORY / PRACTICAL,CS,4,3,0,2,,,,,2019-20_2020-21_2021-22_2022-23,8
+158,CSC063P1E,Adversarial Machine Learning,Departmental Elective,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU11028,Yamuna Prasad,,,2019-20_2020-21_2021-22_2022-23,17
+159,CSC064P1E,Cyber-Physical System and Internet of Things,Departmental Elective,THEORY / PRACTICAL,CS,4,3,0,2,,,,,2019-20_2020-21_2021-22_2022-23,6
+160,CSC062P1E,Image Processing,Departmental Elective,THEORY / PRACTICAL,CS,4,3,0,2,IITJMU11024,Vinit Jakhetiya,IITJMU11010,Badri Narayan Subudhi,2019-20_2020-21_2021-22_2022-23,5
+161,CCP010U2X,Research Study,Credit Earning Course,THEORY,HU,1,0,0,2,IITJMU11052,Joby Varghese,IITJMU11039_IITJMU11042_IITJMU40009_IITJMU40006_IITJMU11073_IITJMU11062_IITJMU11101_IITJMU11056_IITJMU11050_IITJMU11086_IITJMU11022,Sudhakar Modem_Gaurav Ashok Bhaduri_Prabhat Munshi_Bijoy H Boruah_Rahul Dattatraya Kitture_Amitash Ojha_Vinay Sharma_Sayantan Mandal_Sukanya Mondal_Bhaskar Jyoti Neog_Quleen Kaur Bijral,2019-20_2020-21_2021-22_2022-23,205
+162,MEP002U2M,Fluid Mechanics and Machinery Lab,Departmental Practical,PRACTICAL,ME,2,0,0,3,IITJMU11084,Navneet Kumar,IITJMU11091,Shanmugadas K P,2019-20_2020-21_2021-22_2022-23,37
+163,MEL008U3E,Nuclear Reactor Thermal Hydraulics & Safety,Open Elective,THEORY,ME,3,3,0,0,IITJMU20027,Kannan Iyer,,,2019-20_2020-21_2021-22_2022-23,3
+164,MEL015U3M,Mechanical Vibrations,Departmental Core,THEORY,ME,2,2,0,0,IITJMU11048,Sahil Kalra,,,2019-20_2020-21_2021-22_2022-23,32
+165,MEP023U3M,Machine Design Lab,Departmental Practical,PRACTICAL,ME,1,0,0,2,IITJMU11072,Roshan Udaram Patil,,,2019-20_2020-21_2021-22_2022-23,32
+166,MEP033U3M,Mechanical Engineering Drawing,Departmental Practical,PRACTICAL,ME,2,0,0,3,IITJMU11035,Durai Prabhakaran R T,,,2019-20_2020-21_2021-22_2022-23,33
+167,MED024U3M,Energy Systems and Technologies,Departmental Core,THEORY,ME,3,3,1,0,IITJMU11091,Shanmugadas K P,IITJMU11087,Pothukuchi Harish,2019-20_2020-21_2021-22_2022-23,31
+168,MEC011U3E,Electric and Hybrid Vehicle Power Train Fundamentals,Open Elective,THEORY / PRACTICAL,ME,3,3,0,1,IITJMU20031,Rakesh Singhai,,,2019-20_2020-21_2021-22_2022-23,90
+169,MEL009P5E,Convective Heat Transfer,Departmental Elective,THEORY,ME,3,3,0,0,,,IITJMU11084,Navneet Kumar,2019-20_2020-21_2021-22_2022-23,15
+170,MEC044U3E,Design for Additive Manufacturing,Departmental Elective,THEORY / PRACTICAL,ME,2,1,0,1,IITJMU11090,Rajkumar V,IITJMU11015,Anand Kumar Subramaniyan,2019-20_2020-21_2021-22_2022-23,15
+171,MEL051U3E,Laser Plasma Interaction in Materials,Departmental Elective,THEORY,ME,3,3,0,0,IITJMU11027,Shiva S,IITJMU11011,Sanat Kumar Tiwari,2019-20_2020-21_2021-22_2022-23,2
+172,MEC015P1E,Computational Fluid Dynamics and Heat Transfer,Departmental Elective,THEORY / PRACTICAL,ME,3,2,0,2,IITJMU11033,Goutam Dutta,,,2019-20_2020-21_2021-22_2022-23,11
+173,MEL019P5G,Finite Element Method,Departmental Elective,THEORY,ME,3,3,0,0,IITJMU11072,Roshan Udaram Patil,,,2019-20_2020-21_2021-22_2022-23,1
+174,MEL038P6G,Fundamentals of Tribology,Open Category,THEORY,ME,3,3,0,0,IITJMU11032,Arvind Kumar Rajput,,,2019-20_2020-21_2021-22_2022-23,2
+175,MEL013P1M,Non-Conventional Sources of Energy,Departmental Core,THEORY,ME,3,3,0,0,IITJMU11053,Satya Sekhar Bhogilla,,,2019-20_2020-21_2021-22_2022-23,14
+176,MEP014P1M,Energy Laboratory,Departmental Practical,PRACTICAL,ME,2,0,0,3,IITJMU11053,Satya Sekhar Bhogilla,,,2019-20_2020-21_2021-22_2022-23,10
+177,MEL049P6G,Bio-Fluid Mechanics,Departmental Elective,THEORY,ME,3,3,0,0,IITJMU11087,Pothukuchi Harish,,,2019-20_2020-21_2021-22_2022-23,13
+178,CCL026P6X,Software Tools for Mechanical Engineers,Departmental Elective,THEORY,ME,2,2,0,0,IITJMU11087,Pothukuchi Harish,IITJMU11053,Satya Sekhar Bhogilla,2019-20_2020-21_2021-22_2022-23,14
+179,CEL035U3E,Continuum Mechanics,Departmental Elective,THEORY,ME,3,3,0,0,IITJMU11013,Samrat Rao,,,2019-20_2020-21_2021-22_2022-23,2
+180,EEY402U4M,BTP-II,Dissertation,PROJECT,EE,5,0,0,10,IITJMU11044,Kankat Ghosh,,,2019-20_2020-21_2021-22_2022-23,34
+181,EEZ115P3M,Dissertation-III,Dissertation,DISSERTATION,EE,10,0,0,20,IITJMU11024,Vinit Jakhetiya,,,2019-20_2020-21_2021-22_2022-23,5
+182,EEZ113P2M,Dissertation-I,Dissertation,DISSERTATION,EE,7,0,0,14,IITJMU11024,Vinit Jakhetiya,,,2019-20_2020-21_2021-22_2022-23,3
+183,EEL001P5E,Digital Image Processing,Departmental Elective,THEORY,EE,3,3,0,0,IITJMU11010,Badri Narayan Subudhi,,,2019-20_2020-21_2021-22_2022-23,17
+184,CSY403U4E,Mini Project,Departmental Elective,PROJECT,CS,2,0,0,4,IITJMU11088,Shaifu Gupta,,,2019-20_2020-21_2021-22_2022-23,20
+185,CSP058U3E,High Performance Computer Systems Lab,Open Elective,PRACTICAL,CS,1,0,0,2,IITJMU11059,Subhasis Bhattacharjee,,,2019-20_2020-21_2021-22_2022-23,16
+186,CHS200U3X,UG Seminar,Credit Earning Course,TRAINING / SEMINAR,CH,1,0,0,2,IITJMU11097,Aditya Shankar Sandupatla,,,2019-20_2020-21_2021-22_2022-23,27
+187,MTY403U4E,Mini Project,Open Elective,PROJECT,MT,2,0,0,4,IITJMU11060,Shantanu Vijay Madge,,,2019-20_2020-21_2021-22_2022-23,1
+188,HSL062P6G,Social Research Methods,Open Elective,THEORY,HU,3,3,0,0,IITJMU11086,Bhaskar Jyoti Neog,IITJMU11056_IITJMU11052,Sayantan Mandal_Joby Varghese,2019-20_2020-21_2021-22_2022-23,1
+189,CSZ112P2M,Dissertation-II,Departmental Core,PRACTICAL,CS,14,0,0,28,IITJMU11045,Gaurav Varshney,IITJMU11106,Samaresh Bera,2019-20_2020-21_2021-22_2022-23,28
+190,MEY043P2M,Major Project Phase-II,Dissertation,DISSERTATION,ME,15,0,0,30,IITJMU11076,Ankit Tyagi,,,2019-20_2020-21_2021-22_2022-23,10
+191,DIP004U3M,Product Development - I,Institute Core,PROJECT,CS,1,0,0,2,IITJMU11059,Subhasis Bhattacharjee,IITJMU11044,Kankat Ghosh,2019-20_2020-21_2021-22_2022-23,5
+192,EFD003U1M,Engineering Thermodynamics,Institute Core - Engineering Foundation,THEORY,CH_CE_CS_EE_MT_ME,3,3,1,0,IITJMU11042,Gaurav Ashok Bhaduri,,,2019-20_2020-21_2021-22_2022-23,73
+193,CEL006U3M,Design of Reinforced Concrete Structures,Design Core,THEORY,CE,3,3,0,0,IITJMU11051,Rimen Jamatia,,,2019-20_2020-21_2021-22_2022-23,1
+194,CCC001P2M,Technical Writing and Communication Skills,Credit Earning Course,THEORY / PRACTICAL,CH,2,1,0,2,IITJMU11042,Gaurav Ashok Bhaduri,,,2019-20_2020-21_2021-22_2022-23,43
+195,EEY403U4E,Mini Project,Open Elective,PROJECT,EE,2,0,0,4,IITJMU11044,Kankat Ghosh,,,2019-20_2020-21_2021-22_2022-23,13
+196,EES200U3X,UG Seminar,Credit Earning Course,TRAINING / SEMINAR,EE,1,0,0,2,IITJMU11043,Satyadev Ahlawat,,,2019-20_2020-21_2021-22_2022-23,36
+197,CSS200U3X,UG Seminar,Departmental Core,TRAINING / SEMINAR,CS,1,0,0,2,IITJMU11105,Harkeerat Kaur,,,2019-20_2020-21_2021-22_2022-23,
+198,CSP059P5E,Cryptanalysis Lab,Departmental Elective,PRACTICAL,CS,1,0,0,2,IITJMU11046,Sumit Kumar Pandey,,,2019-20_2020-21_2021-22_2022-23,6
+199,CSZ115P2M,Dissertation for Defence-III,Departmental Core,DISSERTATION,CS,3,0,0,6,IITJMU11046,Sumit Kumar Pandey,,,2019-20_2020-21_2021-22_2022-23,2
+200,CE-1-02(PO),CAD,Design Core,PRACTICAL,CE,2,0,0,3,IITJMU11047,Sameer Kumar Sarma Pachalla,IITJMU11008,Nitin Joshi,2022-23,111
+201,CE-1-01(TO),Solid Mechanics,Engineering Core,THEORY,CE,3,3,0,0,IITJMU11016,Rajendra Kumar Varma,IITJMU11032,Arvind Kumar Rajput,2022-23,126
+202,CC-1-03(TO),Professional Ethics,Credit Earning Course,THEORY,HU,1,1,0,0,IITJMU11052,Joby Varghese,,,2022-23,111
+203,CC-1-10(TO),Communication English,Credit Earning Course,THEORY,HU,2,2,0,0,IITJMU11022,Quleen Kaur Bijral,IITJMU11050,Sukanya Mondal,2022-23,106
+204,CC-1-02(TO),Environment and Ecology,Co-Curricular Activities,THEORY,CE,1,1,0,0,IITJMU11092,Pratik Kumar,,,2022-23,106
+205,PH-1-03(TO),Quantum Mechanics & Electromagnetic Theory,Science Core,THEORY,CS_EE_MT,3,3,0,0,IITJMU20035,S. R. K. Chaitanya Indukuri,IITJMU11063,Venkata Sathish Akella,2022-23,105
+206,PH-1-02(PO),Physics Laboratory,Science Core,THEORY,CS_EE_MT,2,0,0,3,IITJMU11011,Sanat Kumar Tiwari,IITJMU11006_IITJMU11036,Rahul Raghunath Salunkhe_Ajeet Kumar Sharma,2022-23,106
+207,ME-1-03(PO),Mechanical Workshop,Design Core,THEORY,ME,2,0,0,4,IITJMU11027,Shiva S,,,2022-23,106
+208,CY-1-02(PO),Chemistry Laboratory,Science Core,PRACTICAL,CY,2,0,0,3,IITJMU11055,Guru Brahamam Ramani,IITJMU11061_IITJMU11065,Jayaramulu Kolleboyina_Amlan Kumar Pal,2022-23,111
+209,CH-1-01(TO),Engineering Thermodynamics,Institute Core - Engineering Foundation,THEORY,CH,3,3,1,0,IITJMU11042,Gaurav Ashok Bhaduri,,,2022-23,106
+210,CE-3-03(TO),Surveying Theory and Practices,Departmental Core,THEORY / PRACTICAL,CE,3,2,0,2,IITJMU11080,Divyesh Varade,,,2022-23,32
+211,MA-1-02(TO),Linear Algebra and Differential Equations,Institute Core,THEORY,MA,3,3,1,0,IITJMU11074,Manmohan Vashisth,IITJMU11102,Arvind Kumar,2022-23,216
+212,CY-1-04(TO),Introduction to Fundamental and Applied Chemistry-II,Science Core,THEORY,CY,3,3,0,0,IITJMU11005,Subhas Samanta,IITJMU11001_IITJMU11018,Pankaj Chauhan_Shivnath Mazumder,2022-23,110
+213,CSL901U3G,Blockchain and its Applications,Departmental Elective,THEORY,CS,3,3,0,0,IITJMU11105,Harkeerat Kaur,,,2019-20_2020-21_2021-22_2022-23,3
+214,CSL902U3G,Deep Reinforcement Learning,Departmental Elective,THEORY,CS,3,3,0,0,IITJMU11024,Vinit Jakhetiya,,,2019-20_2020-21_2021-22_2022-23,1
+215,EE-1-04(TO),Network Analysis and Synthesis,Departmental Core,THEORY,EE,3,3,1,0,IITJMU11010,Badri Narayan Subudhi,,,2022-23,40
+216,DIP002U1M,Product Visualization,Institute Core,PRACTICAL,CE,2,0,0,4,IITJMU11047,Sameer Kumar Sarma Pachalla,IITJMU11008,Nitin Joshi,2019-20_2020-21_2021-22_2022-23,
+217,MEP211,Design of Machines Lab,Departmental Core,PRACTICAL,ME,1,0,0,2,IITJMU11072,Roshan Udaram Patil,,,2016-17_2017-18_2018-19,1
+218,EFP005U1M,Basic Electronics Engineering Lab,Institute Core,PRACTICAL,EE,1,0,0,2,IITJMU11004,Kushmanda Saurav,,,2019-20_2020-21_2021-22_2022-23,1
+219,CST300U4X,Internship,Credit Earning Course,PROJECT,CS,1,0,0,2,IITJMU11059,Subhasis Bhattacharjee,,,2019-20_2020-21_2021-22_2022-23,
+220,EFD002U1M,Basic Electrical Engineering,Institute Core,THEORY,EE,3,3,1,0,IITJMU11110,Arun Kumar Verma,,,2019-20_2020-21_2021-22_2022-23,2

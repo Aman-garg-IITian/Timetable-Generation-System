@@ -118,7 +118,8 @@ vector<classroom*> room;
 vector<labsroom_c*> labs_room;
 vector<time_table*> dept(no_of_dept);
 int lunch;
-int num_oe, oe_l, oe_t, oe_p, oe_day, oe_slot;
+int num_oe;
+//int num_oe, oe_l, oe_t, oe_p, oe_day, oe_slot;
 
 string dept_name[no_of_dept] = {"CHEMICAL", "CIVIL", "CSE", "EE", "MECH", "MAT"};
 //string dept_code[no_of_dept] = {"CHD", "CEL", "CSC", "CSD", "CSL", "CSP", "CYL", "EED", "EEL", "EEY", "EFP", "MEC", "MED", "MEL", "MEP", "MEY", "MTD", "MTL", "MTY", "PHC", "PHL"};
@@ -126,6 +127,7 @@ string dept_code[no_of_dept] = {"CH", "CE", "CS", "EE", "ME", "MT"};
 
 #include "input.cpp"
 bool check_lab_id(string id_to_check);
+bool allocate_oe();
 bool take_input_csv(string fname);
 bool take_input_classroom(string fname);
 bool take_input_labsroom(string fname);
