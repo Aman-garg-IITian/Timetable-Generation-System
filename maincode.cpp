@@ -28,5 +28,7 @@ int main(){
     }
     allocate_prac_dc(D_core);
     debug_print();
-    classroom_print();    
+    classroom_print();
+    debug_print_csv();
+    classroom_print_csv();     
 }

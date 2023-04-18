@@ -286,8 +286,8 @@ bool take_input_classroom(string fname){
         object->capacity = stoi(content[i][1]); 
         room.push_back(object);
     }
-
 }
+
 bool take_input_labsroom(string fname){
     vector< vector<string> > content;
     vector<string> row;

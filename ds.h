@@ -121,6 +121,9 @@ int lunch;
 int num_oe;
 //int num_oe, oe_l, oe_t, oe_p, oe_day, oe_slot;
 
+string day_slot_csv[5] = {"MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"};
+string time_slot_csv[11] = {"8:00-9:00", "9:00-10:00", "10:00-11:00", "11:00-12:00", "12:00-1:00","1:00-2:00", "2:00-3:00", "3:00-4:00", "4:00-5:00", "5:00-6:00","6:00-7:00"};
+
 string dept_name[no_of_dept] = {"CHEMICAL", "CIVIL", "CSE", "EE", "MECH", "MAT"};
 //string dept_code[no_of_dept] = {"CHD", "CEL", "CSC", "CSD", "CSL", "CSP", "CYL", "EED", "EEL", "EEY", "EFP", "MEC", "MED", "MEL", "MEP", "MEY", "MTD", "MTL", "MTY", "PHC", "PHL"};
 string dept_code[no_of_dept] = {"CH", "CE", "CS", "EE", "ME", "MT"};
