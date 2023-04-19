@@ -110,6 +110,7 @@ class DC{
 };
 
 unordered_map <string, instructor *> map_instructor;  //this map will map a particular course to instructors using his/her name
+unordered_map <string, course * > bucket_course; //this map will keep count if any course of the bucket has been p[reviously taken or not
 
 vector<course *> ICs, OEs;
 vector<DC *> D_core;

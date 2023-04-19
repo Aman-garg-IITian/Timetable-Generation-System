@@ -44,14 +44,14 @@ bool allocate_oe(){
                 // slot* temp_slot = new slot();
                 // temp_slot->day = oe_day;
                 // temp_slot->time_slot = oe_slot;
-                cout<<"###################"<<k<<endl;
+                // cout<<"###################"<<k<<endl;
                 int j(0);
                 while(j<oe->p){
                     dept[k]->table[oe_day][x] = make_pair(3,oe) ;
                     //temp_slot->time_slot += 1;
                     j++;
                     x += 1;
-                    cout<<"done with incrementing x          "<<x<<endl;
+                    // cout<<"done with incrementing x          "<<x<<endl;
                 }
             }
 
@@ -120,7 +120,6 @@ bool take_input_csv(string fname){
             row.push_back(word);
             content.push_back(row);
         }
-        cout<<"dbe";
         cout<<"file opened"<<endl;
         // cout<<"#########";
     }
@@ -133,13 +132,25 @@ bool take_input_csv(string fname){
     for(int i=1;i<content.size();i++){
         if(content[i][1]!= ""){
             course * temp_input = new course();
+            if( content[i][15].size() > 1){
+                // cout<<content[i][15].size()<<endl;
+                // cout<<content[i][15]<<" updating"<<endl;
+                string bucket_name = content[i][15];
+                if(bucket_course.find(bucket_name) != bucket_course.end()){
+                    bucket_course[bucket_name]->l = max(stoi(content[i][6]), bucket_course[bucket_name]->l);
+                    bucket_course[bucket_name]->t = max(stoi(content[i][7]), bucket_course[bucket_name]->t);
+                    bucket_course[bucket_name]->p = max(stoi(content[i][8]), bucket_course[bucket_name]->p);
+                    continue;
+                }
+                content[i][1] = bucket_name.substr(0, 3) + "      ";
+            }
             if( content[i][3] =="Institute Core" ){
                 temp_input->course_code = content[i][1];
                 map_instructor[content[i][i]]=NULL;
                 temp_input->l= stoi(content[i][6]);
                 temp_input->p= stoi(content[i][8]);
                 temp_input->t= stoi(content[i][7]);
-                cout<<"no. of prac"<<temp_input->p<<endl;
+                // cout<<"no. of prac"<<temp_input->p<<endl;
                 if(temp_input->p > 0){
                     if(content[i][13].size() == 0){
                         cout<<"###### lab id not provided for a course with p>0"<<endl;
@@ -164,7 +175,7 @@ bool take_input_csv(string fname){
 
                 ICs.push_back(temp_input);
             }
-            else if(content[i][3] =="Departmental Core" || content[i][3] =="Departmental Elective" ){
+            else if(content[i][3] =="Departmental Core" || content[i][3] =="Departmental Elective" || content[i][3] =="Departmental Practical"){
                 temp_input->course_code = content[i][1];
                 temp_input->l= stoi(content[i][6]);
                 temp_input->p= stoi(content[i][8]);
@@ -191,6 +202,11 @@ bool take_input_csv(string fname){
                     }
                 }
                 D_core[dept_substr[(temp_input->course_code).substr(0,2)]]->DCs.push_back(temp_input);
+            }
+            if(content[i][15].size() > 1){
+                // cout<<"adding"<<endl;
+                string bucket_name = content[i][15];
+                bucket_course[bucket_name] = temp_input;
             }
         }
     }

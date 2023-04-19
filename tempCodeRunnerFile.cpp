@@ -1,1 +1,1 @@
-allocate_prac_IC(ICs);
+allocate_prac_dc(D_core);

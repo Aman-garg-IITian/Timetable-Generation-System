@@ -2,7 +2,7 @@
 
 bool allocate_prac_hours(course *c, int p, practical *first_prac, string lab_dept, int tut, time_table* dept)
 {
-    cout << "p   = " << p << endl;
+    cout << "p   = " << p << c->course_code<<endl;
     slot *temp_slot = new slot();
     temp_slot->day = 0;
     temp_slot->time_slot = 0;

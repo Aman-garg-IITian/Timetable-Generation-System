@@ -1,0 +1,45 @@
+PRINT CALLED
+TABLE FOR CIVIL
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,EFD011U3M       ,HSS             ,EFD011U3M(TUT)  ,CEL006U3M       ,CEL007U2M       ,LUNCHBREAK      ,OE1             ,HSS      (PRA)  ,HSS      (PRA)  ,empty           ,empty           ,
+TUESDAY,EFD011U3M       ,HSS             ,DIP004U3M(PRA)  ,DIP004U3M(PRA)  ,CEL006U3M       ,LUNCHBREAK      ,OE1             ,CEL007U2M       ,EFP011U3M(PRA)  ,EFP011U3M(PRA)  ,empty           ,
+WEDNESDAY,EFD011U3M       ,HSS             ,CEL006U3M       ,CEL007U2M       ,empty           ,LUNCHBREAK      ,OE1             ,OE2             ,OE1(PRA)        ,OE1(PRA)        ,empty           ,
+THURSDAY,CEP007U3M(PRA)  ,CEP007U3M(PRA)  ,CEP007U3M(PRA)  ,empty           ,empty           ,LUNCHBREAK      ,empty           ,OE2             ,empty           ,empty           ,empty           ,
+FRIDAY,empty           ,empty           ,empty           ,empty           ,empty           ,LUNCHBREAK      ,OE2             ,OE2(PRA)        ,OE2(PRA)        ,empty           ,empty           ,
+TABLE FOR CSE
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,EFD011U3M       ,HSS             ,EFD011U3M(TUT)  ,CSC030U3M       ,CSC031U3M       ,LUNCHBREAK      ,OE1             ,empty           ,empty           ,empty           ,empty           ,
+TUESDAY,EFD011U3M       ,HSS             ,HSS      (PRA)  ,HSS      (PRA)  ,CSC030U3M       ,LUNCHBREAK      ,OE1             ,CSC031U3M       ,DIP004U3M(PRA)  ,DIP004U3M(PRA)  ,empty           ,
+WEDNESDAY,EFD011U3M       ,HSS             ,EFP011U3M(PRA)  ,EFP011U3M(PRA)  ,CSC030U3M       ,LUNCHBREAK      ,OE1             ,OE2             ,OE1(PRA)        ,OE1(PRA)        ,CSC031U3M       ,
+THURSDAY,CSC030U3M(PRA)  ,CSC030U3M(PRA)  ,CSC031U3M(PRA)  ,CSC031U3M(PRA)  ,empty           ,LUNCHBREAK      ,empty           ,OE2             ,empty           ,empty           ,empty           ,
+FRIDAY,empty           ,empty           ,empty           ,empty           ,empty           ,LUNCHBREAK      ,OE2             ,OE2(PRA)        ,OE2(PRA)        ,empty           ,empty           ,
+TABLE FOR EE
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,EFD011U3M       ,HSS             ,EFD011U3M(TUT)  ,EED013U3M       ,EED013U3M(TUT)  ,LUNCHBREAK      ,OE1             ,EED014U3M       ,EED014U3M(TUT)  ,empty           ,empty           ,
+TUESDAY,EFD011U3M       ,HSS             ,EED013U3M       ,EED014U3M       ,empty           ,LUNCHBREAK      ,OE1             ,HSS      (PRA)  ,HSS      (PRA)  ,empty           ,empty           ,
+WEDNESDAY,EFD011U3M       ,HSS             ,DIP004U3M(PRA)  ,DIP004U3M(PRA)  ,EED013U3M       ,LUNCHBREAK      ,OE1             ,OE2             ,OE1(PRA)        ,OE1(PRA)        ,EED014U3M       ,
+THURSDAY,EFP011U3M(PRA)  ,EFP011U3M(PRA)  ,EEP013U3M(PRA)  ,EEP013U3M(PRA)  ,empty           ,LUNCHBREAK      ,empty           ,OE2             ,empty           ,empty           ,empty           ,
+FRIDAY,EEP014U3M(PRA)  ,EEP014U3M(PRA)  ,empty           ,empty           ,empty           ,LUNCHBREAK      ,OE2             ,OE2(PRA)        ,OE2(PRA)        ,empty           ,empty           ,
+TABLE FOR MECH
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,EFD011U3M       ,HSS             ,EFD011U3M(TUT)  ,MEL014U3M       ,MEL016U3M       ,LUNCHBREAK      ,OE1             ,MEC035U3E       ,MEP004U2M(PRA)  ,MEP004U2M(PRA)  ,empty           ,
+TUESDAY,EFD011U3M       ,HSS             ,MEL014U3M       ,MEL016U3M       ,MEC035U3E       ,LUNCHBREAK      ,OE1             ,empty           ,empty           ,empty           ,empty           ,
+WEDNESDAY,EFD011U3M       ,HSS             ,HSS      (PRA)  ,HSS      (PRA)  ,MEL016U3M       ,LUNCHBREAK      ,OE1             ,OE2             ,OE1(PRA)        ,OE1(PRA)        ,empty           ,
+THURSDAY,DIP004U3M(PRA)  ,DIP004U3M(PRA)  ,EFP011U3M(PRA)  ,EFP011U3M(PRA)  ,empty           ,LUNCHBREAK      ,empty           ,OE2             ,MEC035U3E(PRA)  ,MEC035U3E(PRA)  ,empty           ,
+FRIDAY,empty           ,empty           ,empty           ,empty           ,empty           ,LUNCHBREAK      ,OE2             ,OE2(PRA)        ,OE2(PRA)        ,empty           ,empty           ,
+TABLE FOR MAT
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,EFD011U3M       ,HSS             ,EFD011U3M(TUT)  ,MTD004U3M       ,MTD004U3M(TUT)  ,LUNCHBREAK      ,OE1             ,MTL005U3M       ,MTL006U3M       ,empty           ,empty           ,
+TUESDAY,EFD011U3M       ,HSS             ,MTD004U3M       ,MTL005U3M       ,MTL006U3M       ,LUNCHBREAK      ,OE1             ,empty           ,MTP002U3M(PRA)  ,MTP002U3M(PRA)  ,empty           ,
+WEDNESDAY,EFD011U3M       ,HSS             ,MTD004U3M       ,MTL005U3M       ,MTL006U3M       ,LUNCHBREAK      ,OE1             ,OE2             ,OE1(PRA)        ,OE1(PRA)        ,empty           ,
+THURSDAY,HSS      (PRA)  ,HSS      (PRA)  ,DIP004U3M(PRA)  ,DIP004U3M(PRA)  ,empty           ,LUNCHBREAK      ,empty           ,OE2             ,EFP011U3M(PRA)  ,EFP011U3M(PRA)  ,empty           ,
+FRIDAY,empty           ,empty           ,empty           ,empty           ,empty           ,LUNCHBREAK      ,OE2             ,OE2(PRA)        ,OE2(PRA)        ,empty           ,empty           ,
+COURSES AND CLASSROOMS ALLOCATED TO THEM:
+DIP004U3M  -  AC-2-05
+
+EFD011U3M  -  AC-2-05
+
+EFP011U3M  -  AC-2-05
+
+HSS        -  AC-2-05
+
