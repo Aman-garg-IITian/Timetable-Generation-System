@@ -5,7 +5,7 @@ bool allocate(classroom* room, course* c){
     slot * temp = c->first_l;
     c->allocated_classrooms.push_back(room->id);
     while(temp){
-        cout<< "running"<<endl;
+        // cout<< "running"<<endl;
         room->class_table.table[temp->day][temp->time_slot] = make_pair(1, c);
         // cout<<"allocating room " <<room->id <<" to "<<c->course_code<<endl;
         temp = temp->next;

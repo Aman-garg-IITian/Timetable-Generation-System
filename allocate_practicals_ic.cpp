@@ -26,8 +26,13 @@ bool allocate_prac_IC(vector<course*> IC){
         }
 
         //as it is an ic practical to allocating it for every branch
-        for(int i=0; i<dept.size(); i++){
-            allocate_prac_hours(it, it->p, it->first_p, it->lab_dept, 3, dept[i]);
+        if(it->batch_pract == dept.size()){
+            for(int i=0; i<dept.size(); i++){
+                allocate_prac_hours(it, it->p, it->first_p, it->lab_dept, 3, dept[i]);
+            }
+        }
+        else if(it->batch_pract == 1){
+            allocate_prac_same(it, it->p, it->first_p, it->lab_dept, 3);
         }
     }
     return true;

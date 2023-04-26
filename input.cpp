@@ -167,6 +167,7 @@ bool take_input_csv(string fname){
                             // cout<<guess<<endl;
                             temp_input->labs.push_back(guess);
                         }
+                        temp_input->batch_pract = stoi(content[i][16]);
                     }
                 }
 

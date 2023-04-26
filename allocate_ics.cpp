@@ -18,7 +18,7 @@ bool allocate_ic(vector<course*> IC){
     //then allocate all lectures of ICs
     for(itr = IC.begin(); itr != IC.end(); itr++){
         if( (*itr)->l != 0){
-            cout<<"calling allocate lecture"<<endl;
+            // cout<<"calling allocate lecture"<<endl;
             allocate_lecture(*itr, (*itr)->l, false, (*itr)->first_l);
         }
     }

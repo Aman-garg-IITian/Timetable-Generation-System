@@ -60,9 +60,10 @@ class course{
     instructor* Prof;
     vector<string> coordinator;
     vector<string> allocated_classrooms;
-    vector<string> labs;  //it will store the requires lab for the course
+    vector<string> labs;  //it will store the required lab for the course
 
-    string lab_dept; //it will store the requires lab for the course
+    string lab_dept; //it will store the required lab for the course
+    int batch_pract;
 };
 
 
@@ -148,6 +149,7 @@ bool lab_check(course* c,slot * slot_to_allot);
 
 #include "practical_hour.cpp"
 bool  allocate_prac_hours(course* c, int p, practical* first_prac, string lab_dept, int tut, time_table* dept);
+bool allocate_prac_same(course *c, int p, practical *first_prac, string lab_dept, int tut);
 
 #include "allocate_practicals_ic.cpp"
 bool allocate_prac_IC(vector<course*> ICs);

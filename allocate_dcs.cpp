@@ -52,7 +52,7 @@ bool allocate_dc_lecture(course* dc, int l, bool tut, slot *& head, int dept_no)
     
     slot * temp = head;
     while(temp){
-        cout<<"Allocating"<<dc->course_code<<" "<<temp->day<<" "<<temp->time_slot<<endl;
+        // cout<<"Allocating"<<dc->course_code<<" "<<temp->day<<" "<<temp->time_slot<<endl;
         if(tut){
             dept[dept_no]->table[temp->day][temp->time_slot] = make_pair(2,dc);
             instructor * prof = map_instructor[dc->course_code];
@@ -65,7 +65,7 @@ bool allocate_dc_lecture(course* dc, int l, bool tut, slot *& head, int dept_no)
         }
         temp = temp->next;
     }
-    cout<<endl; 
+    // cout<<endl; 
     return true;
 
 }

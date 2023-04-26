@@ -2,7 +2,7 @@
 
 bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
     // cout<<"allocating lecture for "<< IC->course_code<<" " << l <<endl;
-    cout<<"l   = "<<l<<endl;
+    // cout<<"l   = "<<l<<endl;
     slot* temp_slot = new slot();
     temp_slot->day = 0;
     temp_slot->time_slot = 0;
@@ -72,13 +72,13 @@ bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
     //     cout<<"its nulll"<<endl;
     // }
     while(temp){
-        cout<<"allocating "<<IC->course_code<<" "<<temp->day<<" "<<temp->time_slot <<endl;
+        // cout<<"allocating "<<IC->course_code<<" "<<temp->day<<" "<<temp->time_slot <<endl;
         for(int i=0; i<dept.size(); i++){
             if(tut){
                 dept[i]->table[temp->day][temp->time_slot] = make_pair(2,IC) ;
                 instructor * prof = map_instructor[IC->course_code];
                 add_instructor_slot(prof, temp);
-                cout<<"tutorial" << dept[i]->table[temp->day][temp->time_slot].first<<endl;
+                // cout<<"tutorial" << dept[i]->table[temp->day][temp->time_slot].first<<endl;
             }
             else{
                 dept[i]->table[temp->day][temp->time_slot] = make_pair(1,IC) ;
@@ -89,6 +89,6 @@ bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
         }
         temp = temp->next;
     }
-    cout<<endl;
+    // cout<<endl;
     return true;
 }

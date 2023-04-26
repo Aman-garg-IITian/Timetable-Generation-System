@@ -10,9 +10,7 @@ int main(){
 
 
     // if(take_input_labsroom("Labsroom.csv"))
-    //     cout<<"Labs input taken"<<endl;
-    debug_print();
-    classroom_print();  
+    //     cout<<"Labs input taken"<<endl;  
     allocate_ic(ICs);
     allocate_classroom_same(ICs);
 
