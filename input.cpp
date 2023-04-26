@@ -37,7 +37,6 @@ bool allocate_oe(){
         if((oe->p)>0){
             cout<<"Enter practical slot for "<<oe->course_code<<"    :";
             cin>>oe_day>>oe_slot;
-            // cout<<"#############"<<endl;
             
             for(int k=0; k<dept.size(); k++){
                 int x = oe_slot;
@@ -51,7 +50,6 @@ bool allocate_oe(){
                     //temp_slot->time_slot += 1;
                     j++;
                     x += 1;
-                    // cout<<"done with incrementing x          "<<x<<endl;
                 }
             }
 
@@ -121,7 +119,6 @@ bool take_input_csv(string fname){
             content.push_back(row);
         }
         cout<<"file opened"<<endl;
-        // cout<<"#########";
     }
     else{
         cout<<"File not found!";
@@ -146,7 +143,7 @@ bool take_input_csv(string fname){
             }
             if( content[i][3] =="Institute Core" ){
                 temp_input->course_code = content[i][1];
-                map_instructor[content[i][i]]=NULL;
+                map_instructor[content[i][1]]=NULL;
                 temp_input->l= stoi(content[i][6]);
                 temp_input->p= stoi(content[i][8]);
                 temp_input->t= stoi(content[i][7]);

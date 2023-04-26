@@ -2,7 +2,7 @@
 
 int main(){
     cout<<"code start"<<endl;
-    if(take_input_csv("slot system - Untitled spreadsheet - clean_data.csv"))
+    if(take_input_csv("new_batch_end.csv"))
         cout<<"INPUT TAKEN"<<endl;
 
     if(take_input_classroom("Classroom.csv"))
