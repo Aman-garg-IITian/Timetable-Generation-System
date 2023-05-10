@@ -73,8 +73,9 @@ void classroom_print(){
 
 // for output in csv
 
-void debug_print_csv(){
-    ofstream fout("timetable_output.csv");
+void debug_print_csv(int sem){
+    string st = "timetable_output" + to_string(sem) + ".csv";
+    ofstream fout(st);
     fout<<"PRINT CALLED"<<endl;
     for(int i=1; i< dept.size(); i++){
         fout<<"TABLE FOR "<<dept[i]->name<<endl;
