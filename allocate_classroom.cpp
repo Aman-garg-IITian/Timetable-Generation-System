@@ -1,24 +1,24 @@
 #include "ds.h"
 
-bool allocate(classroom* room, course* c){
+// bool allocate(classroom* room, course* c){
 
-    slot * temp = c->first_l;
-    c->allocated_classrooms.push_back(room->id);
-    while(temp){
-        // cout<< "running"<<endl;
-        room->class_table.table[temp->day][temp->time_slot] = make_pair(1, c);
-        // cout<<"allocating room " <<room->id <<" to "<<c->course_code<<endl;
-        temp = temp->next;
-    }
-    temp = c->first_t;
-    while(temp){
-        room->class_table.table[temp->day][temp->time_slot] = make_pair(2, c);
-        // cout<<"allocating room " <<room->id <<" to "<<c->course_code<<endl;
-        temp = temp->next;
-    }
-    return 1;
+//     slot * temp = c->first_l;
+//     c->allocated_classrooms.push_back(room->id);
+//     while(temp){
+//         // cout<< "running"<<endl;
+//         room->class_table.table[temp->day][temp->time_slot] = make_pair(1, c);
+//         // cout<<"allocating room " <<room->id <<" to "<<c->course_code<<endl;
+//         temp = temp->next;
+//     }
+//     temp = c->first_t;
+//     while(temp){
+//         room->class_table.table[temp->day][temp->time_slot] = make_pair(2, c);
+//         // cout<<"allocating room " <<room->id <<" to "<<c->course_code<<endl;
+//         temp = temp->next;
+//     }
+//     return 1;
 
-}
+// }
 
 int allocate_classroom_same(vector<course*> ICs){
     sort(room.begin(), room.end(), [](classroom*& lhs, classroom* rhs){return lhs->capacity < rhs->capacity;});
