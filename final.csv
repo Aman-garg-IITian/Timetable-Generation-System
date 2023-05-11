@@ -1,0 +1,142 @@
+Slno,Course Code,Course Name,Course Category,Course Type,Credits,Lectures,Tutorial,Practical,Course cordinator Id,Course cordinator Name,Semester/Batch,Students registered,Lab_id,Instructor,bucket,batches_prac,end
+1,PHL020P1M,Thermodynamics and Equilibrium Statistical Mechanics,Departmental Core,THEORY,3,3,0,0,IITJMU11036,Ajeet Kumar Sharma,1,6,,,,,end
+71,MTD002U2M,Characterization of Materials,Departmental Core,THEORY,3,3,1,0,IITJMU11096,Suman Sarkar,1,29,,,,,end
+89,EEP082U3G,Hardware Description Language Laboratory,Departmental Core,PRACTICAL,1,0,0,2,IITJMU11043,Satyadev Ahlawat,1,34,,,,,end
+126,CE-1-02(PO),CAD,Institute Core,PRACTICAL,2,0,0,3,IITJMU11047,Sameer Kumar Sarma Pachalla,1,111,,,,,end
+118,EE-1-03(TO),Electronics System,Institute Core,THEORY,3,3,1,0,IITJMU11107,Archana Rajput,1,79,,,,,end
+133,CS-1-02(MO),Data Structure and Algorithms,Institute Core,THEORY / PRACTICAL,3,2,0,2,IITJMU11024,Vinit Jakhetiya,1,173,,,,,end
+95,SMD002U1M,Linear Algebra and Differential Equations,Institute Core,THEORY,3,3,1,0,IITJMU11074,Manmohan Vashisth,1,37,,,,,end
+112,EFD007U2M,Mechanics of Solids,Institute Core,THEORY,3,3,1,0,IITJMU11016,Rajendra Kumar Varma,1,58,,,,,end
+136,MA-1-02(TO),Linear Algebra and Differential Equations,Institute Core,THEORY,3,3,1,0,IITJMU11074,Manmohan Vashisth,1,216,,,,,end
+142,DIP002U1M,Product Visualization,Institute Core,PRACTICAL,2,0,0,4,IITJMU11047,Sameer Kumar Sarma Pachalla,1,,,,,,end
+103,EFL005U1M,Basic Electronics Engineering,Institute Core,THEORY,3,3,0,0,IITJMU11026,Alok Kumar Saxena,1,38,,,,,end
+44,CEL010P4G,Disaster Management,Open Elective,THEORY,3,3,0,0,IITJMU11085,Chembolu Vinay,1,18,,,,,end
+120,HSL072U3E,Introduction to Sustainable Development,Open Elective,THEORY,2,2,0,0,IITJMU11062,Amitash Ojha,1,93,,,,,end
+121,PH-1-03(TO),Quantum Mechanics & Electromagnetic Theory,Institute Core,THEORY,3,3,0,0,IITJMU20035,S. R. K. Chaitanya Indukuri,1,105,,,,,end
+122,PH-1-02(PO),Physics Laboratory,Institute Core,THEORY,2,0,0,3,IITJMU11011,Sanat Kumar Tiwari,1,106,,,,,end
+32,EEL005P1M,Adaptive Signal Processing,Departmental Core,THEORY,3,3,0,0,IITJMU11009,Karan Nathwani,2,15,,,,,end
+73,MTD003U2M,Phase Transformations in Materials,Departmental Core,THEORY,3,3,1,0,IITJMU11060,Shantanu Vijay Madge,2,29,,,,,end
+78,CEL003U2M,Structural Analysis,Departmental Core,THEORY,3,3,0,0,IITJMU11051,Rimen Jamatia,2,32,,,,,end
+90,CEL001U2M,Transportation and Highway Engineering,Departmental Core,THEORY,3,3,0,0,IITJMU11054,Ankit Kathuria,2,34,,,,,end
+107,EE-1-04(TO),Network Analysis and Synthesis,Departmental Core,THEORY,3,3,1,0,IITJMU11010,Badri Narayan Subudhi,2,40,,,,,end
+108,CSC029U2M,Principles of Programming Languages,Departmental Core,THEORY / PRACTICAL,4,3,0,2,IITJMU11059,Subhasis Bhattacharjee,2,41,,,,,end
+128,CSD019U2M,Design and Analysis of Algorithms,Departmental Core,THEORY,3,3,1,0,IITJMU11105,Harkeerat Kaur,2,120,,,,,end
+54,EEL064U3E,Digital Communications,Departmental Elective,THEORY,3,3,0,0,IITJMU11021,Ajay Singh,1,23,,,,,end
+69,MTL012U3E,Advanced concepts of nanostructured materials,Departmental Elective,THEORY,3,3,0,0,IITJMU11077,Rani Rohini,2,27,,,,,end
+75,CHL029P5G,"Nanomaterials: Synthesis, Characterization, and Applications",Departmental Elective,THEORY,3,3,0,0,IITJMU11076,Ankit Tyagi,2,30,,,,,end
+12,MEP014P1M,Energy Laboratory,Departmental Practical,PRACTICAL,2,0,0,3,IITJMU11053,Satya Sekhar Bhogilla,2,10,,,,,end
+21,CEP101P1M,Rock Mechanics Laboratory,Departmental Practical,PRACTICAL,1,0,0,2,IITJMU11104,Sivakumar G,4,12,,,,,end
+53,MTP004U3M,Materials Simulation Laboratory,Departmental Practical,PRACTICAL,2,0,0,4,IITJMU11075,Srishilan C,2,21,,,,,end
+65,CEP001U2M,Transportation and Highway Engineering laboratory,Departmental Practical,PRACTICAL,2,0,0,3,IITJMU11054,Ankit Kathuria,2,26,,,,,end
+67,CEP006U3M,Civil Engineering Materials lab,Departmental Practical,PRACTICAL,1,0,0,2,IITJMU11047,Sameer Kumar Sarma Pachalla,2,27,,,,,end
+79,CEP003U2M,Structural Analysis Lab,Departmental Practical,PRACTICAL,1,0,0,2,IITJMU11051,Rimen Jamatia,2,32,,,,,end
+80,CEP005U2M,Surveying Laboratory,Departmental Practical,PRACTICAL,2,0,0,4,IITJMU11080,Divyesh Varade,2,32,,,,,end
+96,MEP006U2M,Manufacturing Laboratory I,Departmental Practical,PRACTICAL,2,0,0,3,IITJMU11027,Shiva S,2,37,,,,,end
+101,EEP012U2M,Digital Design and Microcomputers Laboratory,Departmental Practical,PRACTICAL,1,0,0,2,IITJMU11034,Ankit Dubey,2,38,,,,,end
+102,EEP003U2M,Engineering Electromagnetics Laboratory,Departmental Practical,PRACTICAL,1,0,0,2,IITJMU40008,Jegannathan Srinivasan,2,38,,,,,end
+129,CE-1-01(TO),Solid Mechanics,Institute Core,THEORY,3,3,0,0,IITJMU11016,Rajendra Kumar Varma,2,126,,,,,end
+43,HSL035U3M,Problems of Philosophy,Institute Core,THEORY,2,2,0,0,IITJMU40006,Bijoy H Boruah,2,18,,,A,,end
+105,HSL201U3M,Introduction to Philosophy,Institute Core,THEORY,3,3,0,0,IITJMU11052,Joby Varghese,2,40,,,A,,end
+116,HSL031U3M,Concepts in Indian Philosophy,Institute Core,THEORY,2,2,0,0,IITJMU11062,Amitash Ojha,2,75,,,A,,end
+137,HSL029U3M,Introduction to Economics,Institute Core,THEORY,3,3,0,0,IITJMU11086,Bhaskar Jyoti Neog,2,223,,,A,,end
+124,CH-1-01(TO),Engineering Thermodynamics,Institute Core,THEORY,3,3,1,0,IITJMU11042,Gaurav Ashok Bhaduri,2,106,,,,,end
+139,BBL002U3E,Biophysics and Biochemistry,Open Elective,THEORY,3,3,0,0,IITJMU11101,Vinay Sharma,2,,,,,,end
+2,BBL011P6M,Research Methods and Ethics,Open Elective,THEORY,2,2,0,0,IITJMU40005,R. Uma Shankar,2,6,,,,,end
+111,MEL042U3E,Introduction to Bioinspired Engineering,Open Elective,THEORY,3,3,0,0,IITJMU40005,R. Uma Shankar,2,58,,,,6,end
+119,MEC011U3E,Electric and Hybrid Vehicle Power Train Fundamentals,Open Elective,THEORY / PRACTICAL,3,3,0,1,IITJMU20031,Rakesh Singhai,2,90,,,,,end
+138,BBL004U3E,Biosensors,Open Elective,THEORY,3,3,0,0,IITJMU11069,Dharitri Rath,2,,,,,1,end
+125,CY-1-04(TO),Introduction to Fundamental and Applied Chemistry-II,Institute Core,THEORY,3,3,0,0,IITJMU11005,Subhas Samanta,2,110,,,,,end
+127,CY-1-02(PO),Chemistry Laboratory,Institute Core,PRACTICAL,2,0,0,3,IITJMU11055,Guru Brahamam Ramani,2,111,,,,,end
+123,ME-1-03(PO),Mechanical Workshop,Institute Core,THEORY,2,0,0,4,IITJMU11027,Shiva S,3,106,,,,,end
+132,DIP005U3M,Product Development - II,Institute Core,PROJECT,1,0,0,2,IITJMU11044,Kankat Ghosh,3,173,,,,,end
+62,CEL008U3M,Design of Steel Structures,Departmental Core,THEORY,3,3,0,0,IITJMU11049,Surendra Beniwal,3,26,,,,,end
+91,EED015U3M,Power Engineering,Departmental Core,THEORY,3,3,1,0,IITJMU11002,Anup Shukla,3,36,,,,,end
+93,EEL016U3M,Analog Electronics,Departmental Core,THEORY,3,3,0,0,IITJMU11044,Kankat Ghosh,3,36,,,,,end
+104,CSL019U3M,Theory of Computation,Departmental Core,THEORY,3,3,0,0,IITJMU11083,Suman Banerjee,3,39,,,,,end
+113,CSC032U3M,Computer Networks,Departmental Core,THEORY / PRACTICAL,4,3,0,2,IITJMU11045,Gaurav Varshney,3,63,,,,,end
+114,CSC033U3M,Machine Learning,Departmental Core,THEORY / PRACTICAL,4,3,0,2,IITJMU11088,Shaifu Gupta,3,66,,,,,end
+38,CSL058U3E,High Performance Computer Systems,Departmental Elective,THEORY,3,3,0,0,IITJMU11059,Subhasis Bhattacharjee,3,16,,,,,end
+41,CSC063P1E,Adversarial Machine Learning,Departmental Elective,THEORY / PRACTICAL,4,3,0,2,IITJMU11028,Yamuna Prasad,3,17,,,,,end
+45,CSL029U4E,Cryptography,Departmental Elective,THEORY,3,3,0,0,IITJMU11046,Sumit Kumar Pandey,3,18,,,,,end
+56,EEL071U3E,Advanced Engineering Electromagnetics,Departmental Elective,THEORY,3,3,0,0,IITJMU11004,Kushmanda Saurav,3,24,,,,,end
+58,CHL030P6G,Biochemical Engineering,Departmental Elective,THEORY,3,3,0,0,IITJMU11081,Ashutosh Yadav,3,25,,,,,end
+60,CHL027P6G,Petroleum Refinery and Petrochemicals,Departmental Elective,THEORY,3,3,0,0,IITJMU11081,Ashutosh Yadav,3,25,,,,,end
+64,CEL040U3E,Engineering Hydrology,Departmental Elective,THEORY,3,3,0,0,IITJMU11085,Chembolu Vinay,3,26,,,,,end
+141,CHD010P5M,Transport Phenomenon,Departmental Elective,THEORY,3,3,1,0,IITJMU11069,Dharitri Rath,3,30,,,,,end
+22,CEP102P1M,Geology and Geophysical Investigations Lab,Departmental Practical,PRACTICAL,1,0,0,2,IITJMU11103,Prasun Halder,3,12,,,,,end
+72,MTP001U2M,Materials Characterization Laboratory,Departmental Practical,PRACTICAL,2,0,0,4,IITJMU11075,Srishilan C,3,29,,,,,end
+84,MEP023U3M,Machine Design Lab,Departmental Practical,PRACTICAL,1,0,0,2,IITJMU11072,Roshan Udaram Patil,3,32,,,,,end
+88,MEP033U3M,Mechanical Engineering Drawing,Departmental Practical,PRACTICAL,2,0,0,3,IITJMU11035,Durai Prabhakaran R T,3,33,,,,,end
+92,EEP015U3M,Power Engineering Laboratory,Departmental Practical,PRACTICAL,1,0,0,2,IITJMU11002,Anup Shukla,3,36,,,,,end
+94,EEP016U3M,Analog Electronics Laboratory,Departmental Practical,PRACTICAL,1,0,0,2,IITJMU11044,Kankat Ghosh,3,36,,,,,end
+99,MEP002U2M,Fluid Mechanics and Machinery Lab,Departmental Practical,PRACTICAL,2,0,0,3,IITJMU11084,Navneet Kumar,3,37,,,,,end
+63,CEL004U2M,Construction Management and Practices,Institute Core,THEORY,3,3,0,0,IITJMU10101,Anurag Misra,3,26,,,,,end
+77,HSL057U2M,Technoscience and Transhumanism,Institute Core,THEORY,2,2,0,0,IITJMU40006,Bijoy H Boruah,3,32,,,A,,end
+131,HSL045U2M,Higher Education and Society,Institute Core,THEORY,2,2,0,0,IITJMU11056,Sayantan Mandal,3,143,,,A,,end
+134,HSL044U2M,Globalization and Development,Institute Core,THEORY,2,2,0,0,IITJMU11056,Sayantan Mandal,3,181,,,A,,end
+14,MAD009P6G,Partial Differential Equations,Open Elective,THEORY,3,3,1,0,IITJMU11019,Tanmay Sarkar,3,11,,,,,end
+26,HSL071U3E,ipo to IPO: Launch and Growth,Open Elective,THEORY,3,3,0,0,IITJMU11062,Amitash Ojha,3,13,,,,,end
+117,HSL059U2M,Introduction to Industrial and Organisational Psychology,Open Elective,THEORY,2,2,0,0,IITJMU11062,Amitash Ojha,3,76,,,,,end
+140,CHL036U3E,Biosensors,Open Elective,THEORY,3,3,0,0,IITJMU11069,Dharitri Rath,3,,,,,,end
+22,DIP005U3M,Product Development - II,Design Core,PROJECT,1,0,0,2,IITJMU11044,Kankat Ghosh,3,173,,,,A,
+100,EED003U2M,Engineering Electromagnetics,Departmental Core,THEORY,3,3,1,0,IITJMU40008,Jegannathan Srinivasan,4,38,,,,,end
+110,EED012U2M,Digital Design and Microcomputers,Departmental Core,THEORY,3,3,1,0,IITJMU11034,Ankit Dubey,4,42,,,,,end
+135,EFD009U2M,Electronic materials: Fundamentals and device concepts,Institute Core,THEORY,3,3,1,0,IITJMU11066,Biswanath Chakraborty,4,205,,,,,end
+10,CSC048P1M,Pattern Recognition Machine Learning,Departmental Core,THEORY / PRACTICAL,4,3,0,2,IITJMU11105,Harkeerat Kaur,4,8,,,,,end
+11,CSC047P1M,Big Data and Large Scale Computing,Departmental Core,THEORY / PRACTICAL,4,3,0,2,IITJMU11106,Harkeerat Kaur,4,8,,,,,end
+46,EEL007P1M,Detection & Estimation Theory,Departmental Core,THEORY,3,3,0,0,IITJMU11064,Ankur Bansal,4,19,,,,,end
+57,EEL006P1M,Antenna & Wave Propagation,Departmental Core,THEORY,3,3,0,0,IITJMU11004,Kushmanda Saurav,4,25,,,,,end
+87,CHD004U2M,Heat Transfer,Departmental Core,THEORY,3,3,1,0,IITJMU11076,Ankit Tyagi,4,33,,,,,end
+5,CSC064P1E,Cyber-Physical System and Internet of Things,Departmental Elective,THEORY / PRACTICAL,4,3,0,2,,,4,6,,,,,end
+23,CSL033U4E,Natural Language Processing,Departmental Elective,THEORY,3,3,0,0,IITJMU11028,Yamuna Prasad,4,12,,,,,end
+24,EEP076P1M,Advanced System Design Lab.,Departmental Elective,PRACTICAL,2,0,0,3,IITJMU11071,Ambika Prasad Shah,4,13,,,,,end
+42,EEL001P5E,Digital Image Processing,Departmental Elective,THEORY,3,3,0,0,IITJMU11010,Badri Narayan Subudhi,4,17,,,,,end
+49,EEL085P1E,Analog and Mixed Signal VLSI Circuits,Departmental Elective,THEORY,3,3,0,0,IITJMU11071,Ambika Prasad Shah,4,20,,,,,end
+55,EEL079P5E,Wireless Communications,Departmental Elective,THEORY,3,3,0,0,IITJMU11034,Ankit Dubey,4,23,,,,,end
+70,CSL021U4E,Probability and Stochastic Process,Departmental Elective,THEORY,3,3,0,0,IITJMU11019,Tanmay Sarkar,4,27,,,,,end
+81,MTL017P6G,Rheology of Complex Fluids,Departmental Elective,THEORY,3,3,0,0,IITJMU11077,Rani Rohini,4,32,,,,,end
+130,HSL046U2M,Usability and User Experience,Institute Core,THEORY,2,2,0,0,IITJMU11062,Amitash Ojha,4,138,,,A,,end
+39,CSC040U4E,BigData and Application,Open Elective,THEORY / PRACTICAL,3,2,0,2,,,4,16,,,,,end
+28,HSL050U2M,Intermediate Econometrics,Open Elective,THEORY / PRACTICAL,2,1,0,1,IITJMU11086,Bhaskar Jyoti Neog,4,14,,,,,end
+37,HSL066P6G,Intermediate Macroeconomics,Open Elective,THEORY,2,2,0,0,IITJMU11086,Bhaskar Jyoti Neog,4,16,,,,,end
+40,CSP058U3E,High Performance Computer Systems Lab,Open Elective,PRACTICAL,1,0,0,2,IITJMU11059,Subhasis Bhattacharjee,4,16,,,,,end
+74,HSL058U3E,ipo to IPO: Value Proposition Design,Open Elective,THEORY,3,3,0,0,IITJMU11062,Amitash Ojha,4,30,,,,,end
+3,PHL021P1M,Condensed Matter Physics,Departmental Core,THEORY,3,3,0,0,IITJMU11006,Rahul Raghunath Salunkhe,,6,,,,,end
+4,PHP025P1M,Physics Laboratory (General),Departmental Core,PRACTICAL,4,0,0,8,IITJMU11063,Venkata Sathish Akella,,6,,,,,end
+7,CSC049P1M,Modern Cryptography,Departmental Core,THEORY / PRACTICAL,4,3,0,2,IITJMU11046,Sumit Kumar Pandey,,7,,,,,end
+8,CSC050P1M,Information Security,Departmental Core,THEORY / PRACTICAL,4,3,0,2,IITJMU10001,Manoj Singh Gaur,,7,,,,,end
+9,PHC023P1M,Numerical methods and computational physics,Departmental Core,THEORY,3,2,0,2,IITJMU11011,Sanat Kumar Tiwari,,8,,,,,end
+18,CEL012P1M,Tunnel Excavation Methods and Philosophies,Departmental Core,THEORY,3,3,0,0,IITJMU11078,Riya Bhowmik,,12,,,,,end
+19,CEL011P1M,Monitoring and Maintenance of Tunnels,Departmental Core,THEORY,3,3,0,0,IITJMU11047,Sameer Kumar Sarma Pachalla,,12,,,,,end
+30,MEL013P1M,Non-Conventional Sources of Energy,Departmental Core,THEORY,3,3,0,0,IITJMU11053,Satya Sekhar Bhogilla,,14,,,,,end
+47,EEP037P1M,Embedded System Design Lab,Departmental Core,PRACTICAL,1,0,0,2,IITJMU11043,Satyadev Ahlawat,,19,,,,,end
+48,EEL037P1M,Embedded System Design,Departmental Core,THEORY,3,3,0,0,IITJMU11043,Satyadev Ahlawat,,20,,,,,end
+50,MTL007U3M,Engineering Ceramics,Departmental Core,THEORY,3,3,0,0,IITJMU11100,Srinivasan N,,21,,,,,end
+51,MTL008U3M,Industrial Materials Processing,Departmental Core,THEORY,3,3,0,0,IITJMU11100,Srinivasan N,,21,,,,,end
+59,CHD008U4M,Industrial Separations and Reactors,Departmental Core,THEORY,3,3,1,0,IITJMU11097,Aditya Shankar Sandupatla,,25,,,,,end
+66,EEL075P1M,Cyber Physical Systems,Departmental Core,THEORY,3,3,0,0,IITJMU11039,Sudhakar Modem,,26,,,,,end
+76,MED024U3M,Energy Systems and Technologies,Departmental Core,THEORY,3,3,1,0,IITJMU11091,Shanmugadas K P,,31,,,,,end
+82,MEL017U3M,Manufacturing System Design,Departmental Core,THEORY,3,3,0,0,IITJMU11029,Vijay Kumar Pal,,32,,,,,end
+83,MEL015U3M,Mechanical Vibrations,Departmental Core,THEORY,2,2,0,0,IITJMU11048,Sahil Kalra,,32,,,,,end
+85,CE-3-03(TO),Surveying Theory and Practices,Departmental Core,THEORY / PRACTICAL,3,2,0,2,IITJMU11080,Divyesh Varade,,32,,,,,end
+86,CHD003U2M,Fluid Flow and Mechanical Operations,Departmental Core,THEORY,3,3,1,0,IITJMU11070,Ravi Kumar Arun,,33,,,,,end
+97,MED005U2M,Heat Transfer,Departmental Core,THEORY,3,3,1,0,IITJMU11033,Goutam Dutta,,37,,,,,end
+98,CHD005U2M,Mass Transfer,Departmental Core,THEORY,3,3,1,0,IITJMU20023,Pallippattu Krishnan Vijayan,,37,,,,,end
+106,CH-1-03(TO),Chemical and Process Engineering Calculations,Departmental Core,THEORY,3,3,1,0,IITJMU11067,Yogesh Madhukarrao Nimdeo,,40,,,,,end
+109,MEL004U2M,Kinematics and Dynamics of Machines,Departmental Core,THEORY,3,3,0,0,IITJMU11057,Saurabh Biswas,,41,,,,,end
+6,CSP059P5E,Cryptanalysis Lab,Departmental Elective,PRACTICAL,1,0,0,2,IITJMU11046,Sumit Kumar Pandey,,6,,,,,end
+15,CSC042U4E,Internet of Things,Departmental Elective,THEORY / PRACTICAL,3,2,0,2,,,,11,,,,,end
+16,EEC078P6G,Smart Sensors and MEMS Devices,Departmental Elective,THEORY,3,2,0,2,IITJMU11093,Suresh Roland Devasahayam,,11,,,,,end
+17,MEC015P1E,Computational Fluid Dynamics and Heat Transfer,Departmental Elective,THEORY / PRACTICAL,3,2,0,2,IITJMU11033,Goutam Dutta,,11,,,,,end
+20,CEL031P2E,Environmental Impact Assessment in Tunnel Engineering,Departmental Elective,THEORY,3,3,0,0,IITJMU11092,Pratik Kumar,,12,,,,,end
+25,MTL014U3E,Design of Steel Making,Departmental Elective,THEORY,3,3,0,0,IITJMU11075,Srishilan C,,13,,,,,end
+27,MEL049P6G,Bio-Fluid Mechanics,Departmental Elective,THEORY,3,3,0,0,IITJMU11087,Pothukuchi Harish,,13,,,,,end
+29,CEL112P4E,Fracture Mechanics,Departmental Elective,THEORY,3,3,0,0,IITJMU11082,Pervaiz Fathima Khatoon M,,14,,,,,end
+31,CCL026P6X,Software Tools for Mechanical Engineers,Departmental Elective,THEORY,2,2,0,0,IITJMU11087,Pothukuchi Harish,,14,,,,,end
+33,MEC046U3E,Powder Bed Fusion Additive Manufacturing,Departmental Elective,THEORY / PRACTICAL,2,1,0,1,IITJMU11015,Anand Kumar Subramaniyan,,15,,,,,end
+34,EEL052P3E,"Sensors, Actuators and Instrumentation",Departmental Elective,THEORY,3,2,0,2,IITJMU11093,Suresh Roland Devasahayam,,15,,,,,end
+35,MEL009P5E,Convective Heat Transfer,Departmental Elective,THEORY,3,3,0,0,,,,15,,,,,end
+36,MEC044U3E,Design for Additive Manufacturing,Departmental Elective,THEORY / PRACTICAL,2,1,0,1,IITJMU11090,Rajkumar V,,15,,,,,end
+68,CEL047U3E,Railway Engineering,Departmental Elective,THEORY,3,3,0,0,IITJMU11054,Ankit Kathuria,,27,,,,,end
+52,MTP003U3M,Materials Processing Laboratory-II,Departmental Practical,PRACTICAL,2,0,0,4,IITJMU11096,Suman Sarkar,,21,,,,,end
+61,CHP009U3M,Separation Processes and Reaction Engineering Lab,Departmental Practical,PRACTICAL,2,0,0,4,IITJMU11067,Yogesh Madhukarrao Nimdeo,,25,,,,,end

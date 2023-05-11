@@ -133,7 +133,7 @@ string dept_code[no_of_dept] = {"CH", "CE", "CS", "EE", "ME", "MT"};
 #include "input.cpp"
 bool check_lab_id(string id_to_check);
 bool allocate_oe();
-bool take_input_csv(string fname);
+bool take_input_csv(string fname, int sem);
 bool take_input_classroom(string fname);
 bool take_input_labsroom(string fname);
 

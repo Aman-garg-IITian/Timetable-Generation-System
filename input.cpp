@@ -95,7 +95,7 @@ bool allocate_oe(){
     
 }
 
-bool take_input_csv(string fname){
+bool take_input_csv(string fname, int sem){
     
     vector< vector<string> > content;
     vector<string> row;
@@ -127,7 +127,7 @@ bool take_input_csv(string fname){
     
     // cout<<content.size();
     for(int i=1;i<content.size();i++){
-        if(content[i][1]!= ""){
+        if(content[i][1]!= "" && content[i][11] == to_string(sem)){
             course * temp_input = new course();
             if( content[i][15].size() > 1){
                 // cout<<content[i][15].size()<<endl;

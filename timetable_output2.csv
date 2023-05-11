@@ -1,0 +1,53 @@
+PRINT CALLED
+TABLE FOR CIVIL
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,CH-1-01(TO)(TUT),CEL003U2M       ,CEL001U2M       ,
+TUESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,CEL003U2M       ,CEL001U2M       ,empty           ,
+WEDNESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL201U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,CEL003U2M       ,CEL001U2M       ,empty           ,empty           ,empty           ,
+THURSDAY,LUNCHBREAK      ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+FRIDAY,LUNCHBREAK      ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+TABLE FOR CSE
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,CH-1-01(TO)(TUT),CSC029U2M       ,CSD019U2M       ,
+TUESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,CSC029U2M       ,CSD019U2M       ,CSD019U2M(TUT)  ,
+WEDNESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL201U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,CSC029U2M       ,CSD019U2M       ,empty           ,empty           ,empty           ,
+THURSDAY,LUNCHBREAK      ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+FRIDAY,LUNCHBREAK      ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+TABLE FOR EE
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,CH-1-01(TO)(TUT),EEL005P1M       ,EE-1-04(TO)     ,
+TUESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,EEL005P1M       ,EE-1-04(TO)     ,EE-1-04(TO)(TUT),
+WEDNESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL201U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,EEL005P1M       ,EE-1-04(TO)     ,empty           ,empty           ,empty           ,
+THURSDAY,LUNCHBREAK      ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+FRIDAY,LUNCHBREAK      ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+TABLE FOR MECH
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,CH-1-01(TO)(TUT),empty           ,empty           ,
+TUESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,empty           ,empty           ,empty           ,
+WEDNESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL201U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,empty           ,empty           ,empty           ,empty           ,empty           ,
+THURSDAY,LUNCHBREAK      ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+FRIDAY,LUNCHBREAK      ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+TABLE FOR MAT
+,8:00-9:00,9:00-10:00,10:00-11:00,11:00-12:00,12:00-1:00,1:00-2:00,2:00-3:00,3:00-4:00,4:00-5:00,5:00-6:00,6:00-7:00
+MONDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,CH-1-01(TO)(TUT),MTD003U2M       ,MTD003U2M(TUT)  ,
+TUESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL035U3M       ,HSL201U3M       ,HSL031U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,MTD003U2M       ,MTL012U3E       ,empty           ,
+WEDNESDAY,LUNCHBREAK      ,CE-1-01(TO)     ,HSL201U3M       ,HSL029U3M       ,CH-1-01(TO)     ,CY-1-04(TO)     ,MTD003U2M       ,MTL012U3E       ,empty           ,empty           ,empty           ,
+THURSDAY,LUNCHBREAK      ,MTL012U3E       ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+FRIDAY,LUNCHBREAK      ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,empty           ,
+COURSES AND CLASSROOMS ALLOCATED TO THEM:
+CE-1-01(TO)  -  AC-2-06
+
+HSL035U3M  -  AC-2-06
+
+HSL201U3M  -  AC-2-06
+
+HSL031U3M  -  AC-2-06
+
+HSL029U3M  -  AC-2-06
+
+CH-1-01(TO)  -  AC-2-06
+
+CY-1-04(TO)  -  AC-2-06
+
+CY-1-02(PO)  -  AC-2-05
+
