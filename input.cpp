@@ -9,13 +9,107 @@ bool check_lab_id(string id_to_check){
 }
 
 
-bool allocate_oe(){
-    cout<<"ENTER Number OF SLOTS FOR OPEN ELECTIVES:   ";
-    cin>>num_oe;
-    for(int i(0); i<num_oe;i++){
+// bool allocate_oe(){
+//     cout<<"ENTER Number OF SLOTS FOR OPEN ELECTIVES:   ";
+//     cin>>num_oe;
+//     for(int i(0); i<num_oe;i++){
+//         int oe_l, oe_t, oe_p, oe_day, oe_slot;
+//         cout<<"Enter L T P for  "<<i+1<<" OE   :";
+//         cin>>oe_l>>oe_t>>oe_p;
+//         course* oe = new course();
+//         oe->l = oe_l;
+//         oe->t = oe_t;
+//         oe->p = oe_p;
+//         oe->course_code = "OE"+to_string(i+1);
+//         OEs.push_back(oe);
+//         slot* temp_slot = new slot();
+//         if((oe->l)>0){
+//             for( int j(0); j<(oe->l); j++){
+//                 cout<<"Enter lecture slot "<<j+1<<"for "<<oe->course_code<<"    :";
+//                 cin>>oe_day>>oe_slot;
+//                 temp_slot->day = oe_day;
+//                 temp_slot->time_slot = oe_slot;
+//                 for(int i=0; i<dept.size(); i++){
+//                     dept[i]->table[temp_slot->day][temp_slot->time_slot] = make_pair(1,oe) ;
+//                 }
+//             }
+//         }
+//         if((oe->p)>0){
+//             cout<<"Enter practical slot for "<<oe->course_code<<"    :";
+//             cin>>oe_day>>oe_slot;
+            
+//             for(int k=0; k<dept.size(); k++){
+//                 int x = oe_slot;
+//                 // slot* temp_slot = new slot();
+//                 // temp_slot->day = oe_day;
+//                 // temp_slot->time_slot = oe_slot;
+//                 // cout<<"###################"<<k<<endl;
+//                 int j(0);
+//                 while(j<oe->p){
+//                     dept[k]->table[oe_day][x] = make_pair(3,oe) ;
+//                     //temp_slot->time_slot += 1;
+//                     j++;
+//                     x += 1;
+//                 }
+//             }
+
+//         }
+
+//     }
+//     cout<<"finished allocating OEsssssss"<<endl;
+//        }
+   
+//     return true;
+    
+// }
+
+bool allocate_oe(string inputname){
+    cout<<"ENTERED THE INPUT FILE"<<"\n";
+
+    vector<vector<string>> content;
+    vector<string> row;
+    string line, word;
+
+    fstream infile(inputname, ios::in);
+    if (infile.is_open()) {
+        while (getline(infile, line)) {
+            row.clear();
+            stringstream str(line);
+            while (getline(str, word, ','))
+            row.push_back(word);
+            content.push_back(row);
+            
+        }
+        cout << "file opened" << endl;
+    } 
+    else{
+        cout<<"File not found!";
+        return 0;
+    }
+    
+    lunch=stoi(content[0][0]);
+    num_oe=stoi(content[1][0]);
+
+    cout<<"The lunch slot is:"<<lunch<<"\n";
+    cout<<"The number of oes are :"<<num_oe<<"\n";
+
+    // allocating lunch slot in the time table
+    for(int i=0; i<dept.size(); i++){
+        for(int j=0; j<working_days; j++){
+            course * lunch_name = new course();
+            lunch_name->course_code = "LUNCHBREAK ";
+            dept[i]->table[j][lunch] = make_pair(1,lunch_name);
+        }
+    }
+
+    for(int i=2; i<content.size();i++){
         int oe_l, oe_t, oe_p, oe_day, oe_slot;
-        cout<<"Enter L T P for  "<<i+1<<" OE   :";
-        cin>>oe_l>>oe_t>>oe_p;
+        oe_l=stoi(content[i][0]);
+        cout<<"The number of oe_l :"<<oe_l<<"\n";
+        oe_t=stoi(content[i][1]);
+        cout<<"The number of oe_t are :"<<oe_t<<"\n";
+        oe_p=stoi(content[i][2]);
+        cout<<"The number of oe_p are :"<<oe_p<<"\n";    
         course* oe = new course();
         oe->l = oe_l;
         oe->t = oe_t;
@@ -23,10 +117,21 @@ bool allocate_oe(){
         oe->course_code = "OE"+to_string(i+1);
         OEs.push_back(oe);
         slot* temp_slot = new slot();
+        int j=i+1 ;
         if((oe->l)>0){
-            for( int j(0); j<(oe->l); j++){
-                cout<<"Enter lecture slot "<<j+1<<"for "<<oe->course_code<<"    :";
-                cin>>oe_day>>oe_slot;
+            for(j=i+1; j<(oe->l)+i; j++){
+                
+                //cout<<"Enter lecture slot "<<j+1<<"for "<<oe->course_code<<"    :";
+                // infile>>oe_day>>comma>>oe_slot;
+
+                // getline(infile,oe_day , ',');
+                oe_day=stoi(content[j][0]);
+                cout<<"The oe_day are :"<<oe_day<<"\n";
+                oe_slot=stoi(content[j][1]);
+                cout<<"The oe_slot are :"<<oe_slot<<"\n";
+                cout<< "got the data4"<<"\n";
+                // getline(infile,oe_slot, '\n');
+                // cout<< "got the data5"<<"\n";
                 temp_slot->day = oe_day;
                 temp_slot->time_slot = oe_slot;
                 for(int i=0; i<dept.size(); i++){
@@ -35,68 +140,33 @@ bool allocate_oe(){
             }
         }
         if((oe->p)>0){
-            cout<<"Enter practical slot for "<<oe->course_code<<"    :";
-            cin>>oe_day>>oe_slot;
-            
+            int l;
+            for(l=j+1; l<(oe->p)+j-1; l++){
+                oe_day=stoi(content[l][0]);
+                oe_day=stoi(content[l][1]);
+                cout<< "got the data4"<<"\n";
+            }
+            i=l;
             for(int k=0; k<dept.size(); k++){
                 int x = oe_slot;
-                // slot* temp_slot = new slot();
-                // temp_slot->day = oe_day;
-                // temp_slot->time_slot = oe_slot;
-                // cout<<"###################"<<k<<endl;
+                cout<<"###################"<<k<<endl;
                 int j(0);
                 while(j<oe->p){
                     dept[k]->table[oe_day][x] = make_pair(3,oe) ;
-                    //temp_slot->time_slot += 1;
                     j++;
                     x += 1;
+                    cout<<"done with incrementing x          "<<x<<endl;
                 }
             }
 
         }
-
     }
-    cout<<"finished allocating OEsssssss"<<endl;
-
-    // for(int i(0);i<OEs.size();i++){
-    //     slot* temp_slot = new slot();
-    //     if((OEs[i]->l)>0){
-    //         for( int j(0); j<(OEs[i]->l); j++){
-    //             cout<<"Enter lecture slot "<<j+1<<"slot of OE "<<i+1<<"    :";
-    //             cin>>oe_day>>oe_slot;
-    //             temp_slot->day = oe_day;
-    //             temp_slot->time_slot = oe_slot;
-    //             for(int i=0; i<dept.size(); i++){
-    //                 dept[i]->table[temp_slot->day][temp_slot->time_slot] = make_pair(1,OEs[i]) ;
-    //             }
-    //         }
-    //     }
-    //     if((OEs[i]->p)>0){
-    //         cout<<"Enter practical slot  "<<"slot of OE "<<i+1<<"    :";
-    //         cin>>oe_day>>oe_slot;
-    //         // cout<<"#############"<<endl;
-    //         slot* temp_slot = new slot();
-    //         temp_slot->day = oe_day;
-    //         temp_slot->time_slot = oe_slot;
-    //         for(int k=0; k<dept.size(); k++){
-    //             cout<<"###################"<<k<<endl;
-    //             int j(0);
-    //             while(j<OEs[i]->p){
-    //                 dept[k]->table[temp_slot->day][temp_slot->time_slot] = make_pair(3,OEs[i]) ;
-    //                 temp_slot->time_slot += 1;
-    //                 j++;
-    //                 cout<<"done"<<endl;
-    //             }
-    //         }
-
-    //     }
-    // }
-    return true;
-    
+    cout<<"EXIT THE INPUT FILE";
+    return true;   
 }
 
-bool take_input_csv(string fname, int sem){
-    
+
+bool take_input_csv(string fname, int sem,string inputname){
     vector< vector<string> > content;
     vector<string> row;
     string line, word;
@@ -219,16 +289,16 @@ bool take_input_csv(string fname, int sem){
         dept[i] = object;
     }
 
-    cout<<"ENTER LUNCH SLOT FOR THE BATCH: ";
-    cin>>lunch;
+    // cout<<"ENTER LUNCH SLOT FOR THE BATCH: ";
+    // cin>>lunch;
 
-    for(int i=0; i<dept.size(); i++){
-        for(int j=0; j<working_days; j++){
-            course * lunch_name = new course();
-            lunch_name->course_code = "LUNCHBREAK ";
-            dept[i]->table[j][lunch] = make_pair(1,lunch_name);
-        }
-    }
+    // for(int i=0; i<dept.size(); i++){
+    //     for(int j=0; j<working_days; j++){
+    //         course * lunch_name = new course();
+    //         lunch_name->course_code = "LUNCHBREAK ";
+    //         dept[i]->table[j][lunch] = make_pair(1,lunch_name);
+    //     }
+    // }
     
     vector<instructor*> ins_added;
     for (int i = 1; i < content.size(); i++)
@@ -262,7 +332,7 @@ bool take_input_csv(string fname, int sem){
     // dept[dept_no]->table[day_no][break_slot] = make_pair(1,break_name);
 
     //taking input for OE slots.
-    bool x = allocate_oe();
+    bool x = allocate_oe(inputname);
     if(x == true){
         cout<<"OEs allocated!!!!!!"<<endl;
     }

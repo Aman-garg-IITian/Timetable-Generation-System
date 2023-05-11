@@ -6,7 +6,7 @@ int main(){
 
     for(int i=1;i<=4;i++){
         cout<<"code start"<<endl;
-        if(take_input_csv("final.csv", i))
+        if(take_input_csv("final.csv", i,"testing.csv"))
             cout<<"INPUT TAKEN"<<endl;
 
         // if(take_input_labsroom("Labsroom.csv"))
