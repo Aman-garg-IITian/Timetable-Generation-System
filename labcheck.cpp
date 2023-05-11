@@ -5,6 +5,7 @@ bool lab_check(course* c,slot * slot_to_allot){
   int hours = c->p;
 
   //iterate over all the possible labs for that course
+  if(c->labs.size() == 0) return true;
   for(auto lab_to_check: c->labs){
 
     //check the inex of lab in labs_room vector by lab id

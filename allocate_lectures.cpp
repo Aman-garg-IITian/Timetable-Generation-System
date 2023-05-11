@@ -18,7 +18,7 @@ bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
                 if( (dept[i]->table[temp_slot->day][temp_slot->time_slot]).first != 0 || !a ){
                     
                     flag_busy = 1;
-                    if(temp_slot->time_slot < no_of_slots - 1){
+                    if(temp_slot->day < no_of_slots - 1){
                         // cout<<"next slot"<<endl;
                         temp_slot->time_slot += 1;
                         // cout<<temp_slot->day<<" "<<temp_slot->time_slot<<endl;
@@ -33,6 +33,7 @@ bool allocate_lecture(course* IC, int l, bool tut, slot *& head){
                 }
             }
             if(flag_busy == 0){
+
                 // cout<<"lecture allocated"<<endl;
                 flag =1;
                 // cout<<"enter"<<temp_slot->day<<" ";

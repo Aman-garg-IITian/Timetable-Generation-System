@@ -8,6 +8,7 @@ bool allocate_prac_hours(course *c, int p, practical *first_prac, string lab_dep
     temp_slot->time_slot = 0;
 
     bool flag = 0;
+    cout<<c->course_code<<endl;
     while (temp_slot->day < working_days || temp_slot->time_slot < no_of_slots)
     {
         bool flag_busy = 0;
@@ -15,14 +16,17 @@ bool allocate_prac_hours(course *c, int p, practical *first_prac, string lab_dep
         // cout<<"checking a slot"<<endl;
         int i=0;
         while(i<p){
-            bool a = checkmy_instructor_slot(x, temp_slot);                
+            bool a = checkmy_instructor_slot(x, temp_slot);
+            cout<<a<<" ";               
             if (dept->table[temp_slot->day][temp_slot->time_slot].first != 0 || !a)
             {
                 flag_busy = 1;
                 break;
             }
             else{
+                // cout<<i<<" ";
                 if(temp_slot->time_slot >= no_of_slots-1){
+                    // cout<<"yep"<<endl;
                     flag_busy = 1;
                     break;
                 }
@@ -38,7 +42,7 @@ bool allocate_prac_hours(course *c, int p, practical *first_prac, string lab_dep
         }
         if (flag_busy == 0)
         {
-            // cout << "Practical allocated" << endl;
+            cout << "Practical allocated" << endl;
             flag = 1;
                     
             //adding every slot to instructor and department time table

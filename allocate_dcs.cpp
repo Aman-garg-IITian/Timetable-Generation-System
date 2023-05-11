@@ -4,7 +4,7 @@ bool allocate_dc_lecture(course* dc, int l, bool tut, slot *& head, int dept_no)
     slot* temp_slot = new slot();
     temp_slot->day = 0;
     temp_slot->time_slot = 0;
-  
+    // cout<<dc->course_code<<endl;
     while(l >0){
         bool flag = 0;
         
@@ -74,13 +74,16 @@ bool allocate_dc(vector<DC*> dc){
     
     vector<DC*> :: iterator itr;
     for(itr = dc.begin(); itr != dc.end(); itr++){
+        // cout<<"new department"<<(*itr)->dept_no<<endl;
         for(int i=0;i<((*itr)->DCs).size();i++){
+            cout<<i<<endl;
             if((*itr)->DCs[i]->l!=0){
                 allocate_dc_lecture((*itr)->DCs[i], (*itr)->DCs[i]->l, false, (*itr)->DCs[i]->first_l, (*itr)->dept_no);
             }
-            if((*itr)->DCs[i]->l!=0){
+            if((*itr)->DCs[i]->t!=0){
                 allocate_dc_lecture((*itr)->DCs[i], (*itr)->DCs[i]->t, true, (*itr)->DCs[i]->first_t, (*itr)->dept_no);
             }
+            // cout<<i<<"finished"<<endl;
 
         }
     }

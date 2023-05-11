@@ -24,7 +24,8 @@ int main(){
         for(itr = D_core.begin(); itr != D_core.end(); itr++){
             allocate_classroom_same((*itr)->DCs);
         }
-        // allocate_prac_dc(D_core);
+        cout<<"Dc lecture alloted"<<endl;
+        allocate_prac_dc(D_core);
         debug_print();
         classroom_print();
         debug_print_csv(i);

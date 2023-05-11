@@ -59,12 +59,14 @@ int allocate_classroom_same(vector<course*> ICs){
         }
         if(check){
             // cout<<"CLASROOM ALLOCATED"<<endl;
+            return 1;
         }
         else{
             cout<<"allocation not possible for" << ICs[i]->course_code <<endl;
+            return 0;
         // call allocate_room_different
         }
     }
     
-    return 0;
+    return 1;
 }

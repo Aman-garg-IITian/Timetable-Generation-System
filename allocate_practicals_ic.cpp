@@ -56,7 +56,9 @@ bool allocate_prac_dc(vector<DC*> dc){
         }
 
         //allocating each practical one by one
+        cout<<i->dept_no<<endl;
         for(auto it: IC_with_prac){
+            cout<<it->course_code<<endl;
             if(it->p > 4){
                 cout<< "###### Labs greater than 4 hours are not allocated"<<endl;
                 cout<<"The course code is : "<<it->course_code<<endl;
@@ -67,6 +69,7 @@ bool allocate_prac_dc(vector<DC*> dc){
             //as it is an ic practical to allocating it for every branch
             allocate_prac_hours(it, it->p, it->first_p, it->lab_dept, 3, dept[i->dept_no]);
         }
+        cout<<"finished"<<endl;
     }
     return true;
 
