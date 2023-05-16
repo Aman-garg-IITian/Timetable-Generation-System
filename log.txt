@@ -1,0 +1,33 @@
+2023-05-17 00:17:40: Classrooms Data Read Successfull
+2023-05-17 00:17:40: Code Started for year 1
+2023-05-17 00:17:40: Read Input Successful for year 1
+2023-05-17 00:17:40: ICs Allocated for year 1
+2023-05-17 00:17:40: Classrooms Allocated for ICs for year 1
+2023-05-17 00:17:40: Practicals Allocated for year 1
+2023-05-17 00:17:40: DC Courses Allocated for year 1
+2023-05-17 00:17:40: DC Practicals Allocated for year 1
+2023-05-17 00:17:41: Printed Output in CSV for year 1
+2023-05-17 00:17:41: Code Started for year 2
+2023-05-17 00:17:41: Read Input Successful for year 2
+2023-05-17 00:17:41: ICs Allocated for year 2
+2023-05-17 00:17:41: Classrooms Allocated for ICs for year 2
+2023-05-17 00:17:41: Practicals Allocated for year 2
+2023-05-17 00:17:41: DC Courses Allocated for year 2
+2023-05-17 00:17:41: DC Practicals Allocated for year 2
+2023-05-17 00:17:41: Printed Output in CSV for year 2
+2023-05-17 00:17:41: Code Started for year 3
+2023-05-17 00:17:42: Read Input Successful for year 3
+2023-05-17 00:17:42: ICs Allocated for year 3
+2023-05-17 00:17:42: Classrooms Allocated for ICs for year 3
+2023-05-17 00:17:42: Practicals Allocated for year 3
+2023-05-17 00:17:42: DC Courses Allocated for year 3
+2023-05-17 00:17:42: DC Practicals Allocated for year 3
+2023-05-17 00:17:42: Printed Output in CSV for year 3
+2023-05-17 00:17:42: Code Started for year 4
+2023-05-17 00:17:42: Read Input Successful for year 4
+2023-05-17 00:17:42: ICs Allocated for year 4
+2023-05-17 00:17:42: Classrooms Allocated for ICs for year 4
+2023-05-17 00:17:42: Practicals Allocated for year 4
+2023-05-17 00:17:42: DC Courses Allocated for year 4
+2023-05-17 00:17:42: DC Practicals Allocated for year 4
+2023-05-17 00:17:43: Printed Output in CSV for year 4
