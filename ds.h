@@ -2,6 +2,7 @@
 #ifndef ds
 #define ds
 
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <string>
