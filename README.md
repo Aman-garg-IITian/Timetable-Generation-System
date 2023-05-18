@@ -72,6 +72,15 @@ The algorithm for the timetable will generate a 5x11 table for each batch of the
 It also generates the schedule of each classroom showing timings of courses allocated to that classroom.
 
 ![image](https://user-images.githubusercontent.com/92890625/229035054-55146b6e-89f3-4893-9d8c-63992efc7560.png)
+
+
+## WorkFlow!
+
+![main](https://github.com/Aman-garg-IITian/Timetable-Generation-System/assets/75874245/48d5e143-feff-4d4e-b2a2-1a1a1a4aa46d)
+![IC Lec](https://github.com/Aman-garg-IITian/Timetable-Generation-System/assets/75874245/23c8f22e-6bdf-4d38-9759-281aefdaae5b)
+![DC Lec](https://github.com/Aman-garg-IITian/Timetable-Generation-System/assets/75874245/ce2a0c3d-92b3-4fba-b3ae-418f9de3996b)
+
+
 ## Authors
 
 - [@Aman Garg](https://github.com/Aman-garg-IITian)
